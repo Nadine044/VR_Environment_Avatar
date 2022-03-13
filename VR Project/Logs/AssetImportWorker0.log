@@ -193,3 +193,98 @@ System memory in use after: 166.1 MB.
 Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3706.
 Total: 3.840900 ms (FindLiveObjects: 0.442600 ms CreateObjectMapping: 0.075800 ms MarkObjects: 2.100900 ms  DeleteObjects: 1.219100 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.709935 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.36 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.20 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in D:\UNITY PROJECTS\VR Project\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in D:\UNITY PROJECTS\VR Project\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: D:/UNITY PROJECTS/VR Project/Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.364 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.33 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.19 ms.
+Unloading 3080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 167.9 MB.
+System memory in use after: 166.2 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3709.
+Total: 5.615200 ms (FindLiveObjects: 0.562000 ms CreateObjectMapping: 0.076500 ms MarkObjects: 3.534400 ms  DeleteObjects: 1.441000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 7703.020921 seconds.
+  path: Assets/Blockouts/Exterior.blend
+  artifactKey: Guid(3b178420190d6474584af76c8efa8714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockouts/Exterior.blend using Guid(3b178420190d6474584af76c8efa8714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '953937a3cb16f02dde4cefb326f79293') in 11.464794 seconds
+  Import took 11.502103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Blockouts/Exterior.blend
+  artifactKey: Guid(3b178420190d6474584af76c8efa8714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockouts/Exterior.blend using Guid(3b178420190d6474584af76c8efa8714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '953937a3cb16f02dde4cefb326f79293') in 11.389282 seconds
+  Import took 11.412919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1449.863676 seconds.
+  path: Assets/Blockouts/Exterior.blend
+  artifactKey: Guid(3b178420190d6474584af76c8efa8714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockouts/Exterior.blend using Guid(3b178420190d6474584af76c8efa8714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7f6989bba834faebda3e716229b8709') in 11.087207 seconds
+  Import took 11.116653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1997.627595 seconds.
+  path: Assets/Blockouts/Exterior.blend
+  artifactKey: Guid(3b178420190d6474584af76c8efa8714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blockouts/Exterior.blend using Guid(3b178420190d6474584af76c8efa8714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b55bb46cdc6bd54f262b1f5b16f3ccf') in 14.635552 seconds
+  Import took 14.664304 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009357 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.61 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in D:\UNITY PROJECTS\VR Project\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in D:\UNITY PROJECTS\VR Project\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: D:/UNITY PROJECTS/VR Project/Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.235 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Unloading 3080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.3 MB.
+System memory in use after: 183.6 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3748.
+Total: 4.340500 ms (FindLiveObjects: 0.432300 ms CreateObjectMapping: 0.077100 ms MarkObjects: 2.500800 ms  DeleteObjects: 1.328600 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
