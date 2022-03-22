@@ -15,9 +15,11 @@ public class ZipLine : MonoBehaviour
     bool rightInput = false;
     bool leftInput = false;
 
-    private Vector3 dir;
-
     public CharacterController character;
+    private bool zipLineOffset = false;
+
+    private float initialDistance = 0;
+    private float distance;
     
 
     // Start is called before the first frame update
@@ -27,6 +29,8 @@ public class ZipLine : MonoBehaviour
 
         prefab.transform.position = startZipLine.transform.position + new Vector3(-1, 1, 0);
         prefab.transform.LookAt(endZipLine.transform.position);
+
+        distance = Vector3.Distance(startZipLine.transform.position, endZipLine.transform.position);
     }
 
     //Update is called once per frame
@@ -68,15 +72,20 @@ public class ZipLine : MonoBehaviour
 
     void MoveZipLine()
     {
-        Debug.Log("hello I want to move:)");
+        Debug.Log("USING ZIPLINE!");
 
         //character.transform.position = Vector3.Lerp(prefab.transform.position, endZipLine.transform.position, 0.02f);
         
         Vector3 pos = character.transform.position;
         Vector3 direc = (endZipLine.transform.position - pos).normalized;
-        
-        character.Move(direc * 0.1f);
-        
-    
+
+        if (!zipLineOffset)
+        {
+            prefab.transform.position = prefab.transform.position + new Vector3(0, 0.25f, 0);
+            zipLineOffset = true;
+        }
+
+        prefab.transform.position += direc * 0.1f;
+        character.Move(direc * 0.1f);    
     }
 }
