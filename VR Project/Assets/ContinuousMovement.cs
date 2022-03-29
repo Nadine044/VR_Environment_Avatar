@@ -8,7 +8,7 @@ public class ContinuousMovement : MonoBehaviour
 {
     public float speed = 1;
     private float fallingSpeed;
-    public float gravity = -9.81f;
+    public float gravity = -9.8f;
     public XRNode inputSource;
     public LayerMask groundLayer;
     public float additionalHeight = 0.2f;

@@ -7,26 +7,21 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class ZipLine : MonoBehaviour
 {
     public GameObject prefab;
-
     public GameObject startZipLine;
     public GameObject endZipLine;
-    int howManyInputs = 0;
 
+    int howManyInputs = 0;
     bool rightInput = false;
     bool leftInput = false;
 
-    public CharacterController character;
     private bool zipLineOffset = false;
-
-    private float initialDistance = 0;
     private float distance;
-    
+
+    public CharacterController character;
 
     // Start is called before the first frame update
     void Start()
     {
-        //GameObject go = Instantiate(prefab, startZipLine.transform.position + new Vector3(-1, 0, 0), new Quaternion(transform.rotation.x, transform.rotation.y, transform.rotation.z, transform.rotation.w));
-
         prefab.transform.position = startZipLine.transform.position + new Vector3(-1, 1, 0);
         prefab.transform.LookAt(endZipLine.transform.position);
 
@@ -36,9 +31,10 @@ public class ZipLine : MonoBehaviour
     //Update is called once per frame
     void Update()
     {
-        if (Climber.climbingHand && Climber.climbingHand.name == "Right Hand" && !rightInput)
+        if (ZipLiner.hand && ZipLiner.hand.name == "Right Hand" && !rightInput)
         {
             rightInput = true;
+
             if (rightInput)
             {
                 Debug.Log("Grabbing with Right Hand :D)");
@@ -46,9 +42,10 @@ public class ZipLine : MonoBehaviour
                 Debug.Log(howManyInputs);
             }
         }
-        if (Climber.climbingHand && Climber.climbingHand.name == "Left Hand" && !leftInput)
+        if (ZipLiner.hand && ZipLiner.hand.name == "Left Hand" && !leftInput)
         {
             leftInput = true;
+
             if (leftInput)
             {
                 Debug.Log("Grabbing with Left Hand :D)");
@@ -56,7 +53,28 @@ public class ZipLine : MonoBehaviour
                 Debug.Log(howManyInputs);
             }
         }
-        else if (!Climber.climbingHand && howManyInputs > 0)
+
+        //if (Climber.climbingHand && Climber.climbingHand.name == "Right Hand" && !rightInput)
+        //{
+        //    rightInput = true;
+        //    if (rightInput)
+        //    {
+        //        Debug.Log("Grabbing with Right Hand :D)");
+        //        howManyInputs++;
+        //        Debug.Log(howManyInputs);
+        //    }
+        //}
+        //if (Climber.climbingHand && Climber.climbingHand.name == "Left Hand" && !leftInput)
+        //{
+        //    leftInput = true;
+        //    if (leftInput)
+        //    {
+        //        Debug.Log("Grabbing with Left Hand :D)");
+        //        howManyInputs++;
+        //        Debug.Log(howManyInputs);
+        //    }
+        //}
+        else if (!ZipLiner.hand && howManyInputs > 0)
         {
             howManyInputs--;
             rightInput = false;
@@ -72,6 +90,8 @@ public class ZipLine : MonoBehaviour
 
     void MoveZipLine()
     {
+        //Lock component Y character
+
         Debug.Log("USING ZIPLINE!");
 
         //character.transform.position = Vector3.Lerp(prefab.transform.position, endZipLine.transform.position, 0.02f);
