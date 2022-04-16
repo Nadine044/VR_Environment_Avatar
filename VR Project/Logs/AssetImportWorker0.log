@@ -15,12 +15,12 @@ C:/Users/nadig/OneDrive/Documentos/GitHub/VR_Environment_Avatar/VR Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65058
+55616
 Successfully changed project path to: C:/Users/nadig/OneDrive/Documentos/GitHub/VR_Environment_Avatar/VR Project
 C:/Users/nadig/OneDrive/Documentos/GitHub/VR_Environment_Avatar/VR Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 74.36 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 1.45 ms.
+Refreshing native plugins compatible for Editor in 77.84 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 1.54 ms.
 Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/nadig/OneDrive/Documentos/GitHub/VR_Environment_Avatar/VR Project/Assets
@@ -35,26 +35,26 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56680
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56000
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001655 seconds.
+Registered in 0.001530 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 68.56 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.17 ms.
+Refreshing native plugins compatible for Editor in 60.13 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.846 seconds
+- Completed reload, in  1.968 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008267 seconds.
+Registered in 0.008305 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 72.57 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.14 ms.
+Refreshing native plugins compatible for Editor in 62.42 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
@@ -65,810 +65,130 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.554 seconds
+- Completed reload, in  1.428 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.09 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.16 ms.
+Refreshing native plugins compatible for Editor in 1.07 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
 Unloading 3393 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 181.3 MB.
-System memory in use after: 179.8 MB.
+System memory in use before: 188.8 MB.
+System memory in use after: 187.3 MB.
 
 Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3852.
-Total: 3.698200 ms (FindLiveObjects: 0.401000 ms CreateObjectMapping: 0.098600 ms MarkObjects: 2.321300 ms  DeleteObjects: 0.876300 ms)
+Total: 3.369800 ms (FindLiveObjects: 0.367700 ms CreateObjectMapping: 0.080000 ms MarkObjects: 2.056600 ms  DeleteObjects: 0.864700 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Props/SchoolTable_LP.blend
-  artifactKey: Guid(e2d44745bdd0639458954b136323ec00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolTable_LP.blend using Guid(e2d44745bdd0639458954b136323ec00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '813b2ebca3f31fb9581e116d3982bf24') in 0.219273 seconds
-  Import took 0.225281 seconds .
+  path: Assets/Props/SchoolStructure_LP.blend
+  artifactKey: Guid(c360aa756759e9742852f06ed3bab9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SchoolStructure_LP.blend using Guid(c360aa756759e9742852f06ed3bab9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d3f01743046936ee206469d009eaa87') in 0.377304 seconds
+  Import took 0.383333 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 112.399685 seconds.
-  path: Assets/Props/SchoolTable_LP.blend
-  artifactKey: Guid(e2d44745bdd0639458954b136323ec00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolTable_LP.blend using Guid(e2d44745bdd0639458954b136323ec00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1194a0d6ddaa96ec2fd3fee8740d1fb') in 0.103405 seconds
-  Import took 0.109433 seconds .
+  Time since last request: 380.268884 seconds.
+  path: Assets/Props/SchoolStructure_LP.blend
+  artifactKey: Guid(c360aa756759e9742852f06ed3bab9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SchoolStructure_LP.blend using Guid(c360aa756759e9742852f06ed3bab9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da97aac847e45b058b2845814ed14203') in 0.183319 seconds
+  Import took 0.189829 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 24.121935 seconds.
-  path: Assets/Props/SchoolTable_LP.blend
-  artifactKey: Guid(e2d44745bdd0639458954b136323ec00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolTable_LP.blend using Guid(e2d44745bdd0639458954b136323ec00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b991f97bdefacdf0f9cf5f5b844f01c7') in 0.073887 seconds
-  Import took 0.080154 seconds .
+  Time since last request: 497.522348 seconds.
+  path: Assets/Props/SchoolStructure_LP.blend
+  artifactKey: Guid(c360aa756759e9742852f06ed3bab9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SchoolStructure_LP.blend using Guid(c360aa756759e9742852f06ed3bab9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b54dcbfc3247114c9730af0a60938077') in 0.182382 seconds
+  Import took 0.189241 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 31.837247 seconds.
-  path: Assets/Props/SchoolTable_LP.blend
-  artifactKey: Guid(e2d44745bdd0639458954b136323ec00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolTable_LP.blend using Guid(e2d44745bdd0639458954b136323ec00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93ae19495d24265358e645a56c373f99') in 0.103799 seconds
-  Import took 0.109724 seconds .
+  Time since last request: 321.329758 seconds.
+  path: Assets/Props/SchoolStructure_LP.blend
+  artifactKey: Guid(c360aa756759e9742852f06ed3bab9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SchoolStructure_LP.blend using Guid(c360aa756759e9742852f06ed3bab9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be2390734315b4f9f222cde816b4ad43') in 0.182445 seconds
+  Import took 0.188912 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.569284 seconds.
-  path: Assets/Props/SchoolTable_LP.blend
-  artifactKey: Guid(e2d44745bdd0639458954b136323ec00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolTable_LP.blend using Guid(e2d44745bdd0639458954b136323ec00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a69dfaedfe5a25d3c20c3c7cb653501') in 0.157747 seconds
-  Import took 0.164146 seconds .
+  Time since last request: 839.132316 seconds.
+  path: Assets/Props/SchoolStructure_LP.blend
+  artifactKey: Guid(c360aa756759e9742852f06ed3bab9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SchoolStructure_LP.blend using Guid(c360aa756759e9742852f06ed3bab9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '226e9102f66ba98833139dc3a8659ab6') in 0.020421 seconds
+  Import took 0.026928 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 73.346178 seconds.
-  path: Assets/Props/SchoolTable_LP.blend
-  artifactKey: Guid(e2d44745bdd0639458954b136323ec00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolTable_LP.blend using Guid(e2d44745bdd0639458954b136323ec00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68437ba9f53fdff311ef43415c03ef85') in 0.115845 seconds
-  Import took 0.122313 seconds .
+  Time since last request: 0.013508 seconds.
+  path: Assets/Props/SchoolStructure_LP.blend
+  artifactKey: Guid(c360aa756759e9742852f06ed3bab9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SchoolStructure_LP.blend using Guid(c360aa756759e9742852f06ed3bab9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '226e9102f66ba98833139dc3a8659ab6') in 0.016824 seconds
+  Import took 0.022242 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 55.292366 seconds.
-  path: Assets/Props/SchoolTable_LP.blend
-  artifactKey: Guid(e2d44745bdd0639458954b136323ec00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolTable_LP.blend using Guid(e2d44745bdd0639458954b136323ec00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1df81a7236c1c98e67f8e3fa249fdda') in 0.039677 seconds
-  Import took 0.045381 seconds .
+  Time since last request: 8.725119 seconds.
+  path: Assets/Props/SchoolStructure_LP.blend
+  artifactKey: Guid(c360aa756759e9742852f06ed3bab9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SchoolStructure_LP.blend using Guid(c360aa756759e9742852f06ed3bab9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea352b058af420220bd85d4bb028e4d8') in 0.020028 seconds
+  Import took 0.026578 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.214099 seconds.
-  path: Assets/Props/SchoolTable_LP.blend
-  artifactKey: Guid(e2d44745bdd0639458954b136323ec00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolTable_LP.blend using Guid(e2d44745bdd0639458954b136323ec00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ada1cda91711b2297c70eee7b22d43') in 0.112580 seconds
-  Import took 0.118655 seconds .
+  Time since last request: 0.017208 seconds.
+  path: Assets/Props/SchoolStructure_LP.blend
+  artifactKey: Guid(c360aa756759e9742852f06ed3bab9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SchoolStructure_LP.blend using Guid(c360aa756759e9742852f06ed3bab9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea352b058af420220bd85d4bb028e4d8') in 0.017660 seconds
+  Import took 0.023192 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 31.877990 seconds.
-  path: Assets/Props/SchoolTable_LP.blend
-  artifactKey: Guid(e2d44745bdd0639458954b136323ec00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolTable_LP.blend using Guid(e2d44745bdd0639458954b136323ec00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e242cef80bdc1f4c4feb8a7b98c38dfa') in 0.058537 seconds
-  Import took 0.064167 seconds .
+  Time since last request: 1896.873341 seconds.
+  path: Assets/Props/SchoolStructure_Material.mat
+  artifactKey: Guid(a3278f2d7317d0c46bdafafb13b3114f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SchoolStructure_Material.mat using Guid(a3278f2d7317d0c46bdafafb13b3114f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5bdeac355f530a59e7d0da143a2072a') in 0.025220 seconds
+  Import took 0.031946 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.037603 seconds.
-  path: Assets/Props/SchoolTable_LP.blend1
-  artifactKey: Guid(902c5ccb18620724f992b1dcbf9ac7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolTable_LP.blend1 using Guid(902c5ccb18620724f992b1dcbf9ac7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13c6344dd83feb7574ee3b6c35d95c6c') in 0.004285 seconds
-  Import took 0.010058 seconds .
+  Time since last request: 1.742860 seconds.
+  path: Assets/Props/SchoolStructure_LP.blend1
+  artifactKey: Guid(94764c99033175d4f9d9d67353b03932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SchoolStructure_LP.blend1 using Guid(94764c99033175d4f9d9d67353b03932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ec0f49181b4fb764702075f7cd81116') in 0.008429 seconds
+  Import took 0.014728 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 211.016904 seconds.
-  path: Assets/Props/SCHOOL_ALL.blend
-  artifactKey: Guid(f229297773041bd4a866af7956893ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SCHOOL_ALL.blend using Guid(f229297773041bd4a866af7956893ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07580695158546b6ebf812fbe90a2e82') in 0.346531 seconds
-  Import took 0.353012 seconds .
+  Time since last request: 74.243763 seconds.
+  path: Assets/Props/SchoolStructure_TextureDiffuse.png
+  artifactKey: Guid(09628725699e51e458a2fc5fc0a2de22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SchoolStructure_TextureDiffuse.png using Guid(09628725699e51e458a2fc5fc0a2de22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65c945a3f0bd0d0ea9d9362d64bd1302') in 0.058768 seconds
+  Import took 0.065600 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 72.785404 seconds.
-  path: Assets/Props/SCHOOL_ALL.blend
-  artifactKey: Guid(f229297773041bd4a866af7956893ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SCHOOL_ALL.blend using Guid(f229297773041bd4a866af7956893ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55a8fd89ee80a205d5700ca374316f1d') in 0.373163 seconds
-  Import took 0.379568 seconds .
+  Time since last request: 0.000214 seconds.
+  path: Assets/Props/SchoolStructure_TextureMetallicRough.png
+  artifactKey: Guid(3486685de281d804bb4247d9c79f702e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SchoolStructure_TextureMetallicRough.png using Guid(3486685de281d804bb4247d9c79f702e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68211922f1cf868f2fe7b1d95ce3c8bd') in 0.017475 seconds
+  Import took 0.022730 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.553649 seconds.
-  path: Assets/Props/SCHOOL_ALL.blend
-  artifactKey: Guid(f229297773041bd4a866af7956893ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SCHOOL_ALL.blend using Guid(f229297773041bd4a866af7956893ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9cb3ba5dd9f8d710da51b67a2ecda0b') in 0.312748 seconds
-  Import took 0.319043 seconds .
+  Time since last request: 0.000192 seconds.
+  path: Assets/Props/SchoolStructure_TextureNormal.png
+  artifactKey: Guid(764511a468860204f875d438901dcce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SchoolStructure_TextureNormal.png using Guid(764511a468860204f875d438901dcce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '058c6c8e7c74c6aab7ff63ecb5d8fbdf') in 0.010350 seconds
+  Import took 0.016170 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.724650 seconds.
-  path: Assets/Props/SCHOOL_ALL.blend
-  artifactKey: Guid(f229297773041bd4a866af7956893ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SCHOOL_ALL.blend using Guid(f229297773041bd4a866af7956893ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '753a6c5743c2213bac2494b6a5670663') in 0.330400 seconds
-  Import took 0.337133 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.425851 seconds.
-  path: Assets/Props/SCHOOL_ALL.blend
-  artifactKey: Guid(f229297773041bd4a866af7956893ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SCHOOL_ALL.blend using Guid(f229297773041bd4a866af7956893ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a849fa3c90b23c8145816287b67f780f') in 0.277610 seconds
-  Import took 0.284383 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.001971 seconds.
-  path: Assets/Props/SCHOOL_ALL.blend
-  artifactKey: Guid(f229297773041bd4a866af7956893ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SCHOOL_ALL.blend using Guid(f229297773041bd4a866af7956893ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '204a35a9a7039b350b7c524d0ba688f3') in 0.308709 seconds
-  Import took 0.315184 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.838991 seconds.
-  path: Assets/Props/SCHOOL_ALL.blend
-  artifactKey: Guid(f229297773041bd4a866af7956893ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SCHOOL_ALL.blend using Guid(f229297773041bd4a866af7956893ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75f8310b23fc960ebd55d312b610e1a6') in 0.292242 seconds
-  Import took 0.299154 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.490920 seconds.
-  path: Assets/Props/SCHOOL_ALL.blend
-  artifactKey: Guid(f229297773041bd4a866af7956893ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SCHOOL_ALL.blend using Guid(f229297773041bd4a866af7956893ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58f0878686575013a45525cbc1af81f2') in 0.376328 seconds
-  Import took 0.382970 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.929852 seconds.
-  path: Assets/Props/SCHOOL_ALL.blend
-  artifactKey: Guid(f229297773041bd4a866af7956893ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SCHOOL_ALL.blend using Guid(f229297773041bd4a866af7956893ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42f389f4af712ada21d73f9cd0e1a6cc') in 0.218378 seconds
-  Import took 0.224738 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.080755 seconds.
-  path: Assets/Props/SCHOOL_ALL.blend
-  artifactKey: Guid(f229297773041bd4a866af7956893ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SCHOOL_ALL.blend using Guid(f229297773041bd4a866af7956893ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad68eae0e14b6595e55995fd751eaf49') in 0.377850 seconds
-  Import took 0.384504 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.537636 seconds.
-  path: Assets/Props/SCHOOL_ALL.blend
-  artifactKey: Guid(f229297773041bd4a866af7956893ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SCHOOL_ALL.blend using Guid(f229297773041bd4a866af7956893ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36704fe3483ffca83b29289ed7808afe') in 0.329243 seconds
-  Import took 0.335496 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 55.153199 seconds.
-  path: Assets/Props/SCHOOL_ALL.blend
-  artifactKey: Guid(f229297773041bd4a866af7956893ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SCHOOL_ALL.blend using Guid(f229297773041bd4a866af7956893ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bfdee25490d6ab1c5657068e486dda1') in 0.390110 seconds
-  Import took 0.396731 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.167574 seconds.
-  path: Assets/Props/SCHOOL_ALL.blend
-  artifactKey: Guid(f229297773041bd4a866af7956893ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SCHOOL_ALL.blend using Guid(f229297773041bd4a866af7956893ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efa29633d53c322fdd74dc2348ef76ec') in 0.343716 seconds
-  Import took 0.349935 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.224064 seconds.
-  path: Assets/Props/SCHOOL_ALL.blend
-  artifactKey: Guid(f229297773041bd4a866af7956893ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SCHOOL_ALL.blend using Guid(f229297773041bd4a866af7956893ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1424ffd701b567b1c4d2515833848e13') in 0.400203 seconds
-  Import took 0.406664 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.497073 seconds.
-  path: Assets/Props/SCHOOL_ALL.blend
-  artifactKey: Guid(f229297773041bd4a866af7956893ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SCHOOL_ALL.blend using Guid(f229297773041bd4a866af7956893ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c22d8873a79ec18605b40f07979cad35') in 0.324370 seconds
-  Import took 0.330364 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 29.563348 seconds.
-  path: Assets/Props/SCHOOL_ALL.blend
-  artifactKey: Guid(f229297773041bd4a866af7956893ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SCHOOL_ALL.blend using Guid(f229297773041bd4a866af7956893ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d660b89dc6e754e2b837d188019ea35') in 0.604853 seconds
-  Import took 0.611796 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 105.757127 seconds.
-  path: Assets/Props/SchoolFloor.blend
-  artifactKey: Guid(61131157ede16fb4091868cfc198852d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolFloor.blend using Guid(61131157ede16fb4091868cfc198852d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bebc8bbfb9b4ca8e5aa2be154674a66d') in 0.053025 seconds
-  Import took 0.059236 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 834.772014 seconds.
-  path: Assets/Props/SchoolFloor.blend
-  artifactKey: Guid(61131157ede16fb4091868cfc198852d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolFloor.blend using Guid(61131157ede16fb4091868cfc198852d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7605a17c14e010b6612ab68d9dfb80ce') in 0.024181 seconds
-  Import took 0.030654 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.334488 seconds.
-  path: Assets/Props/SchoolFloor.blend
-  artifactKey: Guid(61131157ede16fb4091868cfc198852d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolFloor.blend using Guid(61131157ede16fb4091868cfc198852d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f99291f379621f2babd111d841618cd6') in 0.026741 seconds
-  Import took 0.033375 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.141377 seconds.
-  path: Assets/Props/SchoolFloor.blend1
-  artifactKey: Guid(af9b3f06bb6c6b446a09d1d149101e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolFloor.blend1 using Guid(af9b3f06bb6c6b446a09d1d149101e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea83f80b0e45799e9adef9b44210a8b') in 0.002925 seconds
-  Import took 0.008378 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.622288 seconds.
-  path: Assets/Props/SchoolFloor_Material.mat
-  artifactKey: Guid(885b5785afd83fb4f9d4b68288c208eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolFloor_Material.mat using Guid(885b5785afd83fb4f9d4b68288c208eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c9ba5866b7c2790f5c2b282a7454bc') in 0.012946 seconds
-  Import took 0.019074 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 151.425435 seconds.
-  path: Assets/Props/SchoolFloor_TextureDiffuse.png
-  artifactKey: Guid(801da99dbfb025046b0c1f6628a16b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolFloor_TextureDiffuse.png using Guid(801da99dbfb025046b0c1f6628a16b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bc06e8217246c1b06856e04a3caa6ff') in 0.026344 seconds
-  Import took 0.032773 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Props/SchoolFloor_TextureMetallicRough.png
-  artifactKey: Guid(a36863033730d904ba6392d333565f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolFloor_TextureMetallicRough.png using Guid(a36863033730d904ba6392d333565f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca1ff0ae944098f3bc0e00c747eb087f') in 0.050846 seconds
-  Import took 0.056019 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Props/SchoolFloor_TextureNormal.png
-  artifactKey: Guid(9059a016f4c024b439884372b0a8b94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolFloor_TextureNormal.png using Guid(9059a016f4c024b439884372b0a8b94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72990914c5fb17346e1a96ea3c636cda') in 0.049635 seconds
-  Import took 0.055578 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.414940 seconds.
-  path: Assets/Props/SchoolFloor_TextureNormal.png
-  artifactKey: Guid(9059a016f4c024b439884372b0a8b94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolFloor_TextureNormal.png using Guid(9059a016f4c024b439884372b0a8b94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cac73dad5f67401d4f5a4e02572635e') in 0.015007 seconds
-  Import took 0.020782 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.974395 seconds.
-  path: Assets/Props/SCHOOL_ALL.blend1
-  artifactKey: Guid(9d70916f44fecee4d93b2d46684b0de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SCHOOL_ALL.blend1 using Guid(9d70916f44fecee4d93b2d46684b0de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de56fa8485e551d6f7b9806708130842') in 0.002887 seconds
-  Import took 0.009016 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 59.890875 seconds.
-  path: Assets/Props/SCHOOL_ALL.blend
-  artifactKey: Guid(f229297773041bd4a866af7956893ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SCHOOL_ALL.blend using Guid(f229297773041bd4a866af7956893ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bedbe3f140f0b6507c0382fcafde98a1') in 0.348388 seconds
-  Import took 0.354689 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 95.457528 seconds.
-  path: Assets/Props/SchoolFloor_TextureDiffuse.png
-  artifactKey: Guid(801da99dbfb025046b0c1f6628a16b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolFloor_TextureDiffuse.png using Guid(801da99dbfb025046b0c1f6628a16b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7de98b1422b98fdf0b5f9be6ed4e1f72') in 0.011373 seconds
-  Import took 0.019392 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000341 seconds.
-  path: Assets/Props/SchoolFloor_TextureMetallicRough.png
-  artifactKey: Guid(a36863033730d904ba6392d333565f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolFloor_TextureMetallicRough.png using Guid(a36863033730d904ba6392d333565f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c9c0598e160b2376b5b3605a283edc') in 0.009839 seconds
-  Import took 0.015983 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Props/SchoolFloor_TextureNormal.png
-  artifactKey: Guid(9059a016f4c024b439884372b0a8b94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolFloor_TextureNormal.png using Guid(9059a016f4c024b439884372b0a8b94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd9d6624fdae67b2acc66ebaccbcfbbd') in 0.010474 seconds
-  Import took 0.016918 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 48.887693 seconds.
-  path: Assets/Props/SchoolFloor_Material.mat
-  artifactKey: Guid(885b5785afd83fb4f9d4b68288c208eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolFloor_Material.mat using Guid(885b5785afd83fb4f9d4b68288c208eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4288fe889dbb0f936a17a24a16bc8955') in 0.029515 seconds
-  Import took 0.035890 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 153.115675 seconds.
-  path: Assets/Props/SchoolFloor_TextureDiffuse.png
-  artifactKey: Guid(801da99dbfb025046b0c1f6628a16b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolFloor_TextureDiffuse.png using Guid(801da99dbfb025046b0c1f6628a16b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '564d83124a300e30acec53aa7bb88e9b') in 0.011324 seconds
-  Import took 0.017652 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Props/SchoolFloor_TextureMetallicRough.png
-  artifactKey: Guid(a36863033730d904ba6392d333565f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolFloor_TextureMetallicRough.png using Guid(a36863033730d904ba6392d333565f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7235350dc179191cffdb49af73ded61') in 0.040100 seconds
-  Import took 0.046657 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Props/SchoolFloor_TextureNormal.png
-  artifactKey: Guid(9059a016f4c024b439884372b0a8b94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolFloor_TextureNormal.png using Guid(9059a016f4c024b439884372b0a8b94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '275b34a632030b1ac54a5051aa3c018d') in 0.046089 seconds
-  Import took 0.051598 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 354.571117 seconds.
-  path: Assets/Props/SchoolFloor_TextureDiffuse.png
-  artifactKey: Guid(801da99dbfb025046b0c1f6628a16b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolFloor_TextureDiffuse.png using Guid(801da99dbfb025046b0c1f6628a16b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '485293a464f4c055148dd6bb63a0a0d2') in 0.014921 seconds
-  Import took 0.022703 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Props/SchoolFloor_TextureMetallicRough.png
-  artifactKey: Guid(a36863033730d904ba6392d333565f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolFloor_TextureMetallicRough.png using Guid(a36863033730d904ba6392d333565f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b191b1b81f061c5d6ed62648ccf4821') in 0.008646 seconds
-  Import took 0.014645 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Props/SchoolFloor_TextureNormal.png
-  artifactKey: Guid(9059a016f4c024b439884372b0a8b94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolFloor_TextureNormal.png using Guid(9059a016f4c024b439884372b0a8b94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '527b7913a5c22f775e4ba59aa6c26971') in 0.012679 seconds
-  Import took 0.018347 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 40.760168 seconds.
-  path: Assets/Props/SchoolFloor_TextureDiffuse.png
-  artifactKey: Guid(801da99dbfb025046b0c1f6628a16b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolFloor_TextureDiffuse.png using Guid(801da99dbfb025046b0c1f6628a16b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e75e0356dc95ce384bb755131704091') in 0.016926 seconds
-  Import took 0.023270 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Props/SchoolFloor_TextureMetallicRough.png
-  artifactKey: Guid(a36863033730d904ba6392d333565f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolFloor_TextureMetallicRough.png using Guid(a36863033730d904ba6392d333565f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ba3afabb4db6067b02f8d68b9044071') in 0.007613 seconds
-  Import took 0.012496 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/Props/SchoolFloor_TextureNormal.png
-  artifactKey: Guid(9059a016f4c024b439884372b0a8b94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolFloor_TextureNormal.png using Guid(9059a016f4c024b439884372b0a8b94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7002258b927efd98f05ae26591245787') in 0.010978 seconds
-  Import took 0.016064 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 35.006227 seconds.
-  path: Assets/Props/SchoolFloor_TextureDiffuse.png
-  artifactKey: Guid(801da99dbfb025046b0c1f6628a16b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolFloor_TextureDiffuse.png using Guid(801da99dbfb025046b0c1f6628a16b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '917f52733ae5540130512103fe781cc7') in 0.011422 seconds
-  Import took 0.018054 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 50.007953 seconds.
-  path: Assets/Props/SchoolFloor_TextureDiffuse.png
-  artifactKey: Guid(801da99dbfb025046b0c1f6628a16b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolFloor_TextureDiffuse.png using Guid(801da99dbfb025046b0c1f6628a16b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c206db639dd8a57b7e5cf193755e2676') in 0.012525 seconds
-  Import took 0.019963 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 222.651950 seconds.
-  path: Assets/Props/SchoolFloor_TextureDiffuse.png
-  artifactKey: Guid(801da99dbfb025046b0c1f6628a16b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolFloor_TextureDiffuse.png using Guid(801da99dbfb025046b0c1f6628a16b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf1a47ce485e43ed65db4d41583a9f49') in 0.022782 seconds
-  Import took 0.028866 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/Props/SchoolFloor_TextureMetallicRough.png
-  artifactKey: Guid(a36863033730d904ba6392d333565f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolFloor_TextureMetallicRough.png using Guid(a36863033730d904ba6392d333565f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f071adb2df99b8a24a2b72dd1fa02fc') in 0.035474 seconds
-  Import took 0.040683 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Props/SchoolFloor_TextureNormal.png
-  artifactKey: Guid(9059a016f4c024b439884372b0a8b94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolFloor_TextureNormal.png using Guid(9059a016f4c024b439884372b0a8b94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cee613a9d478a6aa4260454aec99f676') in 0.047122 seconds
-  Import took 0.053147 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 64.233317 seconds.
-  path: Assets/Props/SchoolFloor_TextureDiffuse.png
-  artifactKey: Guid(801da99dbfb025046b0c1f6628a16b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolFloor_TextureDiffuse.png using Guid(801da99dbfb025046b0c1f6628a16b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '209f297ccf75e55106b39ee5182a42f5') in 0.014117 seconds
-  Import took 0.021499 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/Props/SchoolFloor_TextureMetallicRough.png
-  artifactKey: Guid(a36863033730d904ba6392d333565f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolFloor_TextureMetallicRough.png using Guid(a36863033730d904ba6392d333565f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f774a6dd956f1a30335020aaf0f89c92') in 0.037526 seconds
-  Import took 0.042870 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Props/SchoolFloor_TextureNormal.png
-  artifactKey: Guid(9059a016f4c024b439884372b0a8b94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolFloor_TextureNormal.png using Guid(9059a016f4c024b439884372b0a8b94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b4e5821b0b85a2f4d2ab6fece225a00') in 0.043176 seconds
-  Import took 0.048997 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 29.263205 seconds.
-  path: Assets/Props/SchoolFloor_TextureDiffuse.png
-  artifactKey: Guid(801da99dbfb025046b0c1f6628a16b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolFloor_TextureDiffuse.png using Guid(801da99dbfb025046b0c1f6628a16b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e207af91094cbc66c84d4ec9abb9ae') in 0.016205 seconds
-  Import took 0.022572 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/Props/SchoolFloor_TextureMetallicRough.png
-  artifactKey: Guid(a36863033730d904ba6392d333565f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolFloor_TextureMetallicRough.png using Guid(a36863033730d904ba6392d333565f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1c560c0d92e6438faad3a6025f5d1f0') in 0.048614 seconds
-  Import took 0.053629 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Props/SchoolFloor_TextureNormal.png
-  artifactKey: Guid(9059a016f4c024b439884372b0a8b94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolFloor_TextureNormal.png using Guid(9059a016f4c024b439884372b0a8b94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '588960cca90481d5b49ea56318a81e79') in 0.055696 seconds
-  Import took 0.061422 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.446491 seconds.
-  path: Assets/Props/SchoolFloor_TextureDiffuse.png
-  artifactKey: Guid(801da99dbfb025046b0c1f6628a16b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolFloor_TextureDiffuse.png using Guid(801da99dbfb025046b0c1f6628a16b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a94a4d8ead85c4bc481bc66cb4667c') in 0.020534 seconds
-  Import took 0.027256 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 184.670694 seconds.
-  path: Assets/Props/SchoolFloor_TextureDiffuse.png
-  artifactKey: Guid(801da99dbfb025046b0c1f6628a16b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolFloor_TextureDiffuse.png using Guid(801da99dbfb025046b0c1f6628a16b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f91d01cd69bb568a53616d3501d0f462') in 0.011751 seconds
-  Import took 0.018818 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Props/SchoolFloor_TextureMetallicRough.png
-  artifactKey: Guid(a36863033730d904ba6392d333565f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolFloor_TextureMetallicRough.png using Guid(a36863033730d904ba6392d333565f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe5ec0232ccb321e796e9f5818e6d984') in 0.009998 seconds
-  Import took 0.015830 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Props/SchoolFloor_TextureNormal.png
-  artifactKey: Guid(9059a016f4c024b439884372b0a8b94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolFloor_TextureNormal.png using Guid(9059a016f4c024b439884372b0a8b94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efde43f36ef77df0d1be48015f69f6b8') in 0.011187 seconds
-  Import took 0.016159 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.431395 seconds.
-  path: Assets/Props/SchoolFloor_TextureDiffuse.png
-  artifactKey: Guid(801da99dbfb025046b0c1f6628a16b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolFloor_TextureDiffuse.png using Guid(801da99dbfb025046b0c1f6628a16b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05f623c8ed38ca8b8143cbceaef9291f') in 0.009381 seconds
-  Import took 0.015352 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.046167 seconds.
-  path: Assets/Props/SchoolFloor_TextureMetallicRough.png
-  artifactKey: Guid(a36863033730d904ba6392d333565f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolFloor_TextureMetallicRough.png using Guid(a36863033730d904ba6392d333565f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91113a5e2b511b5eda5f290a437daeff') in 0.008718 seconds
-  Import took 0.014326 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.451732 seconds.
-  path: Assets/Props/SchoolFloor_TextureNormal.png
-  artifactKey: Guid(9059a016f4c024b439884372b0a8b94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolFloor_TextureNormal.png using Guid(9059a016f4c024b439884372b0a8b94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f4576d84f92c2a2e7694e391738204') in 0.012203 seconds
-  Import took 0.018541 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 266.651862 seconds.
-  path: Assets/Props/SchoolTable_TextureDiffuse.png
-  artifactKey: Guid(6c42bb64181f6d341a2f7000d320c86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolTable_TextureDiffuse.png using Guid(6c42bb64181f6d341a2f7000d320c86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ba6326712d27f7394b8e6e3f9ecf8d4') in 0.010760 seconds
-  Import took 0.018083 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/Props/SchoolTable_TextureNormal.png
-  artifactKey: Guid(eae94346da0b80140acd97a04a2f1277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolTable_TextureNormal.png using Guid(eae94346da0b80140acd97a04a2f1277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fd37f82a1c3ea90c263314287c713a3') in 0.023975 seconds
-  Import took 0.030712 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Props/SchoolTable_TextureMetallicRough.png
-  artifactKey: Guid(393e28298e45a9643ae2f8d2579d37b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolTable_TextureMetallicRough.png using Guid(393e28298e45a9643ae2f8d2579d37b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b5ab24c509a2ecce08f850272979c2') in 0.023333 seconds
-  Import took 0.029233 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.451739 seconds.
-  path: Assets/Props/SchoolTable_TextureDiffuse.png
-  artifactKey: Guid(6c42bb64181f6d341a2f7000d320c86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolTable_TextureDiffuse.png using Guid(6c42bb64181f6d341a2f7000d320c86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cec1c832e1652da5534c0023b4705fb') in 0.013798 seconds
-  Import took 0.020785 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 28.070056 seconds.
-  path: Assets/Props/SchoolTable_TextureDiffuse.png
-  artifactKey: Guid(6c42bb64181f6d341a2f7000d320c86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolTable_TextureDiffuse.png using Guid(6c42bb64181f6d341a2f7000d320c86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cb38560b3a0a1e3dc6e9fa44f576c44') in 0.010478 seconds
-  Import took 0.017180 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.897094 seconds.
-  path: Assets/Props/SchoolTable_TextureDiffuse.png
-  artifactKey: Guid(6c42bb64181f6d341a2f7000d320c86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolTable_TextureDiffuse.png using Guid(6c42bb64181f6d341a2f7000d320c86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '503e3d9c694cc0e48494289d8f637297') in 0.012662 seconds
-  Import took 0.019007 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.083223 seconds.
-  path: Assets/Props/SchoolTable_TextureDiffuse.png
-  artifactKey: Guid(6c42bb64181f6d341a2f7000d320c86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolTable_TextureDiffuse.png using Guid(6c42bb64181f6d341a2f7000d320c86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd697b8796c88f056ae9f31921fc66b3b') in 0.019905 seconds
-  Import took 0.026134 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.941120 seconds.
-  path: Assets/Props/SchoolTable_TextureMetallicRough.png
-  artifactKey: Guid(393e28298e45a9643ae2f8d2579d37b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolTable_TextureMetallicRough.png using Guid(393e28298e45a9643ae2f8d2579d37b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c3e1064f1c186af5b25b68043d8abd5') in 0.016573 seconds
-  Import took 0.023430 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/Props/SchoolTable_TextureNormal.png
-  artifactKey: Guid(eae94346da0b80140acd97a04a2f1277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolTable_TextureNormal.png using Guid(eae94346da0b80140acd97a04a2f1277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dfbbedf78e36d50109bdbcd5de6e754') in 0.017008 seconds
-  Import took 0.023030 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.049298 seconds.
-  path: Assets/Props/SchoolTable_TextureDiffuse.png
-  artifactKey: Guid(6c42bb64181f6d341a2f7000d320c86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolTable_TextureDiffuse.png using Guid(6c42bb64181f6d341a2f7000d320c86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7312faeb1d9315656e5fd25cc7f3449a') in 0.012098 seconds
-  Import took 0.018540 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 51.601681 seconds.
-  path: Assets/Props/SchoolTable_TextureDiffuse.png
-  artifactKey: Guid(6c42bb64181f6d341a2f7000d320c86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolTable_TextureDiffuse.png using Guid(6c42bb64181f6d341a2f7000d320c86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c26b2834b7147309a5ca6805a048baf0') in 0.019524 seconds
-  Import took 0.025637 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.908748 seconds.
-  path: Assets/Props/SchoolTable_TextureDiffuse.png
-  artifactKey: Guid(6c42bb64181f6d341a2f7000d320c86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolTable_TextureDiffuse.png using Guid(6c42bb64181f6d341a2f7000d320c86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '135bdf66762b7f12217e8a17f30f8121') in 0.021265 seconds
-  Import took 0.027701 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.804981 seconds.
-  path: Assets/Props/SchoolTable_TextureDiffuse.png
-  artifactKey: Guid(6c42bb64181f6d341a2f7000d320c86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolTable_TextureDiffuse.png using Guid(6c42bb64181f6d341a2f7000d320c86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67272bc71f629ac698bee4db94c7dba4') in 0.013840 seconds
-  Import took 0.020181 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.765837 seconds.
-  path: Assets/Props/SchoolTable_TextureDiffuse.png
-  artifactKey: Guid(6c42bb64181f6d341a2f7000d320c86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolTable_TextureDiffuse.png using Guid(6c42bb64181f6d341a2f7000d320c86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '927734a2b25858e984f6c3528b841a52') in 0.009471 seconds
-  Import took 0.016615 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.121014 seconds.
-  path: Assets/Props/SchoolTable_TextureDiffuse.png
-  artifactKey: Guid(6c42bb64181f6d341a2f7000d320c86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolTable_TextureDiffuse.png using Guid(6c42bb64181f6d341a2f7000d320c86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d27dd54d256be43c0362257a267d296') in 0.013123 seconds
-  Import took 0.019731 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 154.860246 seconds.
-  path: Assets/Props/SchoolFloor_TextureDiffuse.png
-  artifactKey: Guid(801da99dbfb025046b0c1f6628a16b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolFloor_TextureDiffuse.png using Guid(801da99dbfb025046b0c1f6628a16b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdaed0e8661c931eb10d970507d9b2dd') in 0.014292 seconds
-  Import took 0.021410 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Props/SchoolFloor_TextureMetallicRough.png
-  artifactKey: Guid(a36863033730d904ba6392d333565f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolFloor_TextureMetallicRough.png using Guid(a36863033730d904ba6392d333565f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '354bc9449665b5a0c1d60119b5eebeb7') in 0.062304 seconds
-  Import took 0.068235 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/Props/SchoolFloor_TextureNormal.png
-  artifactKey: Guid(9059a016f4c024b439884372b0a8b94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolFloor_TextureNormal.png using Guid(9059a016f4c024b439884372b0a8b94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1547fee25f20405e5d9c2d463a9a1195') in 0.065886 seconds
-  Import took 0.071377 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.543549 seconds.
-  path: Assets/Props/SchoolFloor_TextureMetallicRough.png
-  artifactKey: Guid(a36863033730d904ba6392d333565f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolFloor_TextureMetallicRough.png using Guid(a36863033730d904ba6392d333565f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8fb9a986872ed9b6bc48906cb10e375') in 0.005656 seconds
-  Import took 0.011354 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.418778 seconds.
-  path: Assets/Props/SchoolFloor_TextureMetallicRough.png
-  artifactKey: Guid(a36863033730d904ba6392d333565f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolFloor_TextureMetallicRough.png using Guid(a36863033730d904ba6392d333565f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5154c433b88d614e079a0d2fa85ba0b3') in 0.007634 seconds
-  Import took 0.013938 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 65.174135 seconds.
-  path: Assets/Props/SchoolTable_LP.fbx
-  artifactKey: Guid(7e48ae3bff541604189ae265dd13c5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolTable_LP.fbx using Guid(7e48ae3bff541604189ae265dd13c5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1242a260cfe14ee20084f2d05d4aa99b') in 0.087534 seconds
-  Import took 0.093649 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/Props/SchoolTable_TextureNormal.png
-  artifactKey: Guid(eae94346da0b80140acd97a04a2f1277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolTable_TextureNormal.png using Guid(eae94346da0b80140acd97a04a2f1277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '096ae34a52bd700d0c6b3086e28689b7') in 0.014246 seconds
-  Import took 0.019729 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/Props/SchoolTable_TextureDiffuse.png
-  artifactKey: Guid(6c42bb64181f6d341a2f7000d320c86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolTable_TextureDiffuse.png using Guid(6c42bb64181f6d341a2f7000d320c86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '865efda9684fd09f5ede1c48a37eb560') in 0.009840 seconds
-  Import took 0.014783 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 42.618076 seconds.
-  path: Assets/Props/SchoolTable_TextureDiffuse.png
-  artifactKey: Guid(6c42bb64181f6d341a2f7000d320c86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolTable_TextureDiffuse.png using Guid(6c42bb64181f6d341a2f7000d320c86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2563daab587684a4c5de13806d34f0a') in 0.008027 seconds
-  Import took 0.014127 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.773475 seconds.
-  path: Assets/Props/SchoolTable_TextureDiffuse.png
-  artifactKey: Guid(6c42bb64181f6d341a2f7000d320c86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolTable_TextureDiffuse.png using Guid(6c42bb64181f6d341a2f7000d320c86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0849407701aa432d3b5611aa38f6586') in 0.013456 seconds
-  Import took 0.020044 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.826175 seconds.
-  path: Assets/Props/SchoolTable_TextureDiffuse.png
-  artifactKey: Guid(6c42bb64181f6d341a2f7000d320c86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolTable_TextureDiffuse.png using Guid(6c42bb64181f6d341a2f7000d320c86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eedb1d89acf5dbbf9a6d57d8d79e5f5') in 0.017720 seconds
-  Import took 0.023630 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 343.386683 seconds.
-  path: Assets/Props/SCHOOL_ALL.blend
-  artifactKey: Guid(f229297773041bd4a866af7956893ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SCHOOL_ALL.blend using Guid(f229297773041bd4a866af7956893ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf7b85cb5230a1957055036ef300ff7f') in 0.344039 seconds
-  Import took 0.350807 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 135.313436 seconds.
-  path: Assets/Props/SchoolFloor_TextureDiffuse.png
-  artifactKey: Guid(801da99dbfb025046b0c1f6628a16b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolFloor_TextureDiffuse.png using Guid(801da99dbfb025046b0c1f6628a16b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e04f1c19fe8e10bbe25b47cf392d774b') in 0.009960 seconds
-  Import took 0.016318 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Props/SchoolFloor_TextureMetallicRough.png
-  artifactKey: Guid(a36863033730d904ba6392d333565f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolFloor_TextureMetallicRough.png using Guid(a36863033730d904ba6392d333565f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '691d5094fe95e1c5c72ffca72ed22c34') in 0.036835 seconds
-  Import took 0.043082 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Props/SchoolFloor_TextureNormal.png
-  artifactKey: Guid(9059a016f4c024b439884372b0a8b94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolFloor_TextureNormal.png using Guid(9059a016f4c024b439884372b0a8b94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1d8495483b5fc0e1b04978d31ba2ff4') in 0.042026 seconds
-  Import took 0.048188 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.299723 seconds.
-  path: Assets/Props/SchoolFloor_TextureDiffuse.png
-  artifactKey: Guid(801da99dbfb025046b0c1f6628a16b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SchoolFloor_TextureDiffuse.png using Guid(801da99dbfb025046b0c1f6628a16b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6bd8f4090da22b12d63acee92af8efd') in 0.014572 seconds
-  Import took 0.021172 seconds .
+  Time since last request: 7.184316 seconds.
+  path: Assets/Props/SchoolStructure_TextureNormal.png
+  artifactKey: Guid(764511a468860204f875d438901dcce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SchoolStructure_TextureNormal.png using Guid(764511a468860204f875d438901dcce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f6e416230c58effd3ca8e793902deb6') in 0.018271 seconds
+  Import took 0.024770 seconds .
 
