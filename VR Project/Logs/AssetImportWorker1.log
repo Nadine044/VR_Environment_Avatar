@@ -1,0 +1,190 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.1f1 (270dd8c3da1c) revision 2559448'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'es' Physical Memory: 16360 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/NADINE/Github Projects/VR_Environment_Avatar/VR Project
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+52711
+Successfully changed project path to: D:/NADINE/Github Projects/VR_Environment_Avatar/VR Project
+D:/NADINE/Github Projects/VR_Environment_Avatar/VR Project
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 126.38 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 4.04 ms.
+Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/NADINE/Github Projects/VR_Environment_Avatar/VR Project/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   
+    VRAM:     6052 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56724
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003009 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 91.31 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.028 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009465 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 92.40 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.11 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\NADINE\Github Projects\VR_Environment_Avatar\VR Project\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\NADINE\Github Projects\VR_Environment_Avatar\VR Project\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  6.767 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.27 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Unloading 3391 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.5 MB.
+System memory in use after: 149.6 MB.
+
+Unloading 111 unused Assets to reduce memory usage. Loaded Objects now: 3776.
+Total: 5.388100 ms (FindLiveObjects: 0.321600 ms CreateObjectMapping: 0.121900 ms MarkObjects: 2.433300 ms  DeleteObjects: 2.509700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Props/SchoolStraw_TextureMetallicRough.png
+  artifactKey: Guid(a40c6cc949198814dabac0d42ab38f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SchoolStraw_TextureMetallicRough.png using Guid(a40c6cc949198814dabac0d42ab38f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3eecd4354d77f69061f3be0c646edfc') in 0.111225 seconds
+  Import took 0.120801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Props/SchoolStraw_TextureDiffuse.png
+  artifactKey: Guid(d2be65048b22cd94a8e60d508d3829bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SchoolStraw_TextureDiffuse.png using Guid(d2be65048b22cd94a8e60d508d3829bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04e50a3b257cc927b10864d560858408') in 0.024839 seconds
+  Import took 0.033689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Props/SchoolStraw_TextureNormal.png
+  artifactKey: Guid(850bc3b3e308b654e9eb66f7534e586a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SchoolStraw_TextureNormal.png using Guid(850bc3b3e308b654e9eb66f7534e586a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0a507da0253e11c03aa52c050cb7e0d') in 0.116207 seconds
+  Import took 0.124424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.216082 seconds.
+  path: Assets/Props/SchoolStraw.blend
+  artifactKey: Guid(452b0dc848acd1545b3bb4c6112410ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SchoolStraw.blend using Guid(452b0dc848acd1545b3bb4c6112410ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d4ba46d286e898c4bcfd223cdb35ac2') in 0.429557 seconds
+  Import took 0.437527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 252.062942 seconds.
+  path: Assets/Props/SchoolStraw_TextureDiffuse.png
+  artifactKey: Guid(d2be65048b22cd94a8e60d508d3829bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SchoolStraw_TextureDiffuse.png using Guid(d2be65048b22cd94a8e60d508d3829bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0630f337553ae1ed100112ca54336a9a') in 0.076960 seconds
+  Import took 0.084655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 186.944890 seconds.
+  path: Assets/Props/SchoolStraw_TextureNormal.png
+  artifactKey: Guid(850bc3b3e308b654e9eb66f7534e586a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SchoolStraw_TextureNormal.png using Guid(850bc3b3e308b654e9eb66f7534e586a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cb7ebfd3123d93de5dbb8d685caf486') in 0.017016 seconds
+  Import took 0.026117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 343.971204 seconds.
+  path: Assets/Props/SchoolStraw_TextureDiffuse.png
+  artifactKey: Guid(d2be65048b22cd94a8e60d508d3829bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SchoolStraw_TextureDiffuse.png using Guid(d2be65048b22cd94a8e60d508d3829bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48c3c5f4d9032ca944b245cef96971d9') in 0.019638 seconds
+  Import took 0.029781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 112.042481 seconds.
+  path: Assets/Props/SchoolStraw.blend
+  artifactKey: Guid(452b0dc848acd1545b3bb4c6112410ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SchoolStraw.blend using Guid(452b0dc848acd1545b3bb4c6112410ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c65e7749b602f95141514f5a893f6d0c') in 0.039131 seconds
+  Import took 0.047874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.416211 seconds.
+  path: Assets/Props/SchoolStraw.blend
+  artifactKey: Guid(452b0dc848acd1545b3bb4c6112410ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SchoolStraw.blend using Guid(452b0dc848acd1545b3bb4c6112410ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb02470d90f0be3385d4c7c75676e337') in 0.062797 seconds
+  Import took 0.071337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.430366 seconds.
+  path: Assets/Props/SchoolStraw.blend
+  artifactKey: Guid(452b0dc848acd1545b3bb4c6112410ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SchoolStraw.blend using Guid(452b0dc848acd1545b3bb4c6112410ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbdac7b1041e973960d5e8d1236e2c47') in 0.026390 seconds
+  Import took 0.033939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.545050 seconds.
+  path: Assets/Props/SchoolStraw.blend
+  artifactKey: Guid(452b0dc848acd1545b3bb4c6112410ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SchoolStraw.blend using Guid(452b0dc848acd1545b3bb4c6112410ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9415c42c843c8c0d2876c00be32c8d81') in 0.030734 seconds
+  Import took 0.039276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.821999 seconds.
+  path: Assets/Props/SchoolStraw_Material.mat
+  artifactKey: Guid(79ec466ca5717ae4fbbbaf32ef27c5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SchoolStraw_Material.mat using Guid(79ec466ca5717ae4fbbbaf32ef27c5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2baeae39407ac3afed7b965e1664ec48') in 0.081625 seconds
+  Import took 0.090032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.606016 seconds.
+  path: Assets/Props/SchoolStraw.blend1
+  artifactKey: Guid(b64e5ff08da66084c8bc8779663faa55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/SchoolStraw.blend1 using Guid(b64e5ff08da66084c8bc8779663faa55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e86c546b46a0bb17c486603253f8ce4') in 0.015625 seconds
+  Import took 0.028269 seconds .
+
