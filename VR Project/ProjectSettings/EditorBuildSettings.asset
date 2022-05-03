@@ -5,17 +5,33 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: Assets/Scenes/2.Exterior_Blockout.unity
-    guid: c8c9e168b69d9cb4a93512bf9ba4b4d5
   - enabled: 1
-    path: Assets/Scenes/1.Playing.unity
-    guid: 54a9799b9dba0e94fa0b1684e739a7aa
+    path: Assets/BNG Framework/Scenes/XR Demo.unity
+    guid: a1360534006d3f845bc79b46b93cfec5
+  - enabled: 1
+    path: Assets/BNG Framework/Scenes/Scene Transitioning.unity
+    guid: 9d7c9629abf9c99449e358b0938b47d0
+  - enabled: 1
+    path: Assets/BNG Framework/Scenes/Physics Hands.unity
+    guid: 34a4579517c578e4080d0a6ef2c96294
+  - enabled: 1
+    path: Assets/BNG Framework/Scenes/Rigidbody Player.unity
+    guid: 57fc97c5771a777449aa8bd02514df22
+  - enabled: 1
+    path: Assets/BNG Framework/Scenes/Vehicle Example.unity
+    guid: d96233ee44d985d4fb8dc23a907c06eb
   m_configObjects:
-    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: ffba7c949c84273489d55842f84c6ff5, type: 2}
-    Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 3bf202f07b2d28441ad3ec93c17206fe, type: 2}
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: c09e4864eb0878642a992e22b67b0b24, type: 2}
-    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: e102cd87d35247e41bf9db3c6b11dd93, type: 2}
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: ffba7c949c84273489d55842f84c6ff5,
+      type: 2}
+    Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: 2ec24d39f7b5ac84aad7e5df7b4fd3ea,
+      type: 2}
+    Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 3bf202f07b2d28441ad3ec93c17206fe,
+      type: 2}
+    com.unity.input.settings: {fileID: 11400000, guid: 7c0d65f8139523c47a3ac0b1587ccdf6,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: c09e4864eb0878642a992e22b67b0b24,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: e102cd87d35247e41bf9db3c6b11dd93,
+      type: 2}
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: 2ae0a4a226e8d9e4aba56d1e2eb3977b,
+      type: 2}

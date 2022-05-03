@@ -11,11 +11,11 @@ TagManager:
   - 
   - Water
   - UI
-  - Grab
-  - Ground
-  - Body
-  - Grab Ignore Ray
-  - Second Hand Grab
+  - 
+  - 
+  - Restricted
+  - Player
+  - Grabbable
   - 
   - 
   - 
