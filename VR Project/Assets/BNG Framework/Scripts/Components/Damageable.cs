@@ -12,6 +12,12 @@ namespace BNG {
     /// </summary>
     public class Damageable : MonoBehaviour {
 
+        //NADINE CODE---------------
+
+        public LevelRules g_manager;
+
+        //--------------------------
+
         public float Health = 100;
         private float _startingHealth;
 
@@ -156,6 +162,7 @@ namespace BNG {
             // Invoke Callback Event
             if (onDestroyed != null) {
                 onDestroyed.Invoke();
+                g_manager.counter++;
             }
 
             if (DestroyOnDeath) {
