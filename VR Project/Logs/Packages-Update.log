@@ -53,12 +53,3 @@ Update Mode: mergeDefaultDependencies
 The following packages were added:
   com.unity.ext.nunit@1.0.0
   com.unity.inputsystem@1.0.2
-
-=== Wed May 11 11:25:23 2022
-
-Packages were changed.
-Update Mode: mergeDefaultDependencies
-
-The following packages were added:
-  com.unity.burst@1.4.11
-  com.unity.mathematics@1.2.5
