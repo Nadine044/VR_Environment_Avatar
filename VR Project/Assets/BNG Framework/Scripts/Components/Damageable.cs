@@ -162,7 +162,11 @@ namespace BNG {
             // Invoke Callback Event
             if (onDestroyed != null) {
                 onDestroyed.Invoke();
-                g_manager.counter++;
+
+                if (this.tag == "GREEN_TUTORIAL")
+                {
+                    g_manager.TUTORIAL_green_counter++;
+                }
             }
 
             if (DestroyOnDeath) {
