@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class appear : MonoBehaviour
 {
-    private GameObject collectible;
     public GameObject PREFAB_COLLECTIBLE;
+    private GameObject collectibleActivatedLever;
+    public Transform parent_Collectibles;
     public Vector3 position;
     public Quaternion rotation;
 
@@ -17,7 +18,8 @@ public class appear : MonoBehaviour
     {
         if (!instantiated)
         {
-            collectible = Instantiate(PREFAB_COLLECTIBLE, position, rotation);
+            collectibleActivatedLever = Instantiate(PREFAB_COLLECTIBLE, position, rotation);
+            collectibleActivatedLever.transform.parent = parent_Collectibles;
         }
         instantiated = true;
         Destroy(destroyLever);
