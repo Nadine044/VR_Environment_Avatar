@@ -8,12 +8,6 @@ public class unlockGate : MonoBehaviour
     public int targetRequirement = 1;
     public GameObject barrier;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {

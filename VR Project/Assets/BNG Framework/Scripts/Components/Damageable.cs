@@ -164,9 +164,10 @@ namespace BNG {
                 onDestroyed.Invoke();
 
                 if (this.tag == "GREEN_TUTORIAL")
-                {
                     g_manager.TUTORIAL_green_counter++;
-                }
+
+                if (this.tag == "GREEN_1")
+                    g_manager.green_1_counter++;
             }
 
             if (DestroyOnDeath) {

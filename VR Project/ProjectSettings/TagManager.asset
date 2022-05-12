@@ -6,6 +6,7 @@ TagManager:
   tags:
   - GREEN_TUTORIAL
   - Collectible
+  - GREEN_1
   layers:
   - Default
   - TransparentFX

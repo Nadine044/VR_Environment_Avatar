@@ -5,7 +5,7 @@ using BNG;
 
 public class LevelRules : MonoBehaviour
 {
-    public GameObject barrier;
+    public GameObject barrier_green_1;
 
     //---- COLLECTIBLES ----------------
     public GameObject collectible_prefab;
@@ -13,7 +13,10 @@ public class LevelRules : MonoBehaviour
     private GameObject collectible1;
 
     public int total_collectibles_discovered = 0;
+    //COUNTERS
+
     public int TUTORIAL_green_counter;
+    public int green_1_counter;
 
     //HAND COLLISION
     bool button_pressed = true;
@@ -42,6 +45,12 @@ public class LevelRules : MonoBehaviour
             //collectible1 = Instantiate(collectible_prefab, new Vector3(-167.10f, 0.35f, 63.85f), new Quaternion(90.0f, 0.0f, 0.0f, 0.0f));
             TUTORIAL_green_counter = 0;
             TUTORIAL_Lever.GetComponent<MeshRenderer>().material = activated_green;
+        }
+
+        if (green_1_counter == 3)
+        {
+            green_1_counter = 0;
+            barrier_green_1.SetActive(false);
         }
 
         if (InputBridge.Instance.AButton)
