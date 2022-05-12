@@ -12,7 +12,6 @@ public class LevelRules : MonoBehaviour
 
     private GameObject collectible1;
 
-
     public int total_collectibles_discovered = 0;
     public int TUTORIAL_green_counter;
 
@@ -26,7 +25,7 @@ public class LevelRules : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        
     }
 
     // Update is called once per frame
@@ -37,10 +36,10 @@ public class LevelRules : MonoBehaviour
         //    barrier.SetActive(false);
         //}
 
-        if (TUTORIAL_green_counter == 1)
+        if (TUTORIAL_green_counter == 4)
         {
             //barrier.SetActive(false);
-            collectible1 = Instantiate(collectible_prefab, new Vector3(-167.10f, 0.35f, 63.85f), new Quaternion(90.0f, 0.0f, 0.0f, 0.0f));
+            //collectible1 = Instantiate(collectible_prefab, new Vector3(-167.10f, 0.35f, 63.85f), new Quaternion(90.0f, 0.0f, 0.0f, 0.0f));
             TUTORIAL_green_counter = 0;
             TUTORIAL_Lever.GetComponent<MeshRenderer>().material = activated_green;
         }
