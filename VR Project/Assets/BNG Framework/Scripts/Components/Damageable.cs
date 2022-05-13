@@ -175,6 +175,8 @@ namespace BNG {
 
                 if (this.tag == "ORANGE_1" && myTag.tagName == "BOW_ORANGE")
                     g_manager.orange_1_counter++;
+                if (this.tag == "PURPLE_1")
+                    g_manager.purple_1_counter++;
             }
 
             if (DestroyOnDeath) {

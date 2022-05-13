@@ -11,6 +11,7 @@ TagManager:
   - BOW_GREEN
   - BOW_ORANGE
   - ORANGE_1
+  - PURPLE_1
   layers:
   - Default
   - TransparentFX

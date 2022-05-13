@@ -6,8 +6,11 @@ using BNG;
 public class LevelRules : MonoBehaviour
 {
     public GameObject player;
+
+    //BARRIERS
     public GameObject barrier_green_1;
     public GameObject barrier_orange_1;
+    public GameObject barrier_purple_1;
 
     //---- COLLECTIBLES ----------------
     public GameObject collectible_prefab;
@@ -27,8 +30,12 @@ public class LevelRules : MonoBehaviour
     
     //COUNTERS
     public int TUTORIAL_green_counter;
+    [HideInInspector]
     public int green_1_counter;
+    [HideInInspector]
     public int orange_1_counter;
+    [HideInInspector]
+    public int purple_1_counter;
 
     //LEVERS
     public Material activated_green;
@@ -62,6 +69,11 @@ public class LevelRules : MonoBehaviour
             barrier_orange_1.SetActive(false);
         }
 
+        if (purple_1_counter == 2)
+        {
+            purple_1_counter = 0;
+            barrier_purple_1.SetActive(false);
+        }
         //COLLECT OBJECTS THINGS
 
         //if (InputBridge.Instance.AButton)
