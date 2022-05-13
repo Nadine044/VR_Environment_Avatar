@@ -16,6 +16,9 @@ namespace BNG {
 
         public LevelRules g_manager;
 
+        public GameObject bowType;
+        public getTag myTag;
+
         //--------------------------
 
         public float Health = 100;
@@ -163,11 +166,15 @@ namespace BNG {
             if (onDestroyed != null) {
                 onDestroyed.Invoke();
 
-                if (this.tag == "GREEN_TUTORIAL")
+                myTag = bowType.GetComponent<getTag>();
+                if (this.tag == "GREEN_TUTORIAL" && myTag.tagName == "BOW_GREEN")
                     g_manager.TUTORIAL_green_counter++;
 
-                if (this.tag == "GREEN_1")
+                if (this.tag == "GREEN_1" && myTag.tagName == "BOW_GREEN")
                     g_manager.green_1_counter++;
+
+                if (this.tag == "ORANGE_1" && myTag.tagName == "BOW_ORANGE")
+                    g_manager.orange_1_counter++;
             }
 
             if (DestroyOnDeath) {

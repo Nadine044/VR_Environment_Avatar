@@ -20,6 +20,7 @@ public class appear : MonoBehaviour
         {
             collectibleActivatedLever = Instantiate(PREFAB_COLLECTIBLE, position, rotation);
             collectibleActivatedLever.transform.parent = parent_Collectibles;
+            
         }
         instantiated = true;
         Destroy(destroyLever);

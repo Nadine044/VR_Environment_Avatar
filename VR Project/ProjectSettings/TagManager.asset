@@ -7,6 +7,10 @@ TagManager:
   - GREEN_TUTORIAL
   - Collectible
   - GREEN_1
+  - Stone
+  - BOW_GREEN
+  - BOW_ORANGE
+  - ORANGE_1
   layers:
   - Default
   - TransparentFX
