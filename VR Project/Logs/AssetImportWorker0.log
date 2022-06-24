@@ -353,3 +353,534 @@ System memory in use after: 196.0 MB.
 Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 4057.
 Total: 4.357900 ms (FindLiveObjects: 0.480100 ms CreateObjectMapping: 0.088600 ms MarkObjects: 2.714200 ms  DeleteObjects: 1.073900 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008521 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.65 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.19 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Users\nadig\OneDrive\Documentos\GitHub\VR_Environment_Avatar\VR Project\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Users\nadig\OneDrive\Documentos\GitHub\VR_Environment_Avatar\VR Project\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.531 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.32 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.16 ms.
+Unloading 3394 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 197.2 MB.
+System memory in use after: 196.0 MB.
+
+Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 4060.
+Total: 4.438700 ms (FindLiveObjects: 0.744500 ms CreateObjectMapping: 0.255900 ms MarkObjects: 2.380100 ms  DeleteObjects: 1.057200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 738.627063 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(6b669bc596766234e897bb3aad175396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(6b669bc596766234e897bb3aad175396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c4c31342c53dcc3ed3cc08ea3d909cf') in 0.232863 seconds
+  Import took 0.245927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 370.341762 seconds.
+  path: Assets/Props/Basket.blend
+  artifactKey: Guid(5b4c15008a1a7aa4bae91503dd16ee70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Basket.blend using Guid(5b4c15008a1a7aa4bae91503dd16ee70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be2d6d8eb71a525b6b7274f9e7f736ac') in 0.254127 seconds
+  Import took 0.261793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Props/TropicalWater_Plane.blend
+  artifactKey: Guid(65680878610b1024b92d7093285f1626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/TropicalWater_Plane.blend using Guid(65680878610b1024b92d7093285f1626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a51eaaf027be4e33afcfdede014dd8c') in 0.028391 seconds
+  Import took 0.035930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.131658 seconds.
+  path: Assets/Props/TropicalWater_Plane.blend
+  artifactKey: Guid(65680878610b1024b92d7093285f1626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/TropicalWater_Plane.blend using Guid(65680878610b1024b92d7093285f1626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa565935d0a4d5fbad5f7497985ddb13') in 0.023065 seconds
+  Import took 0.029792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002432 seconds.
+  path: Assets/Props/TropicalWater_Plane.blend
+  artifactKey: Guid(65680878610b1024b92d7093285f1626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/TropicalWater_Plane.blend using Guid(65680878610b1024b92d7093285f1626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa565935d0a4d5fbad5f7497985ddb13') in 0.021016 seconds
+  Import took 0.026995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.118623 seconds.
+  path: Assets/Props/TropicalWater_Plane.blend
+  artifactKey: Guid(65680878610b1024b92d7093285f1626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/TropicalWater_Plane.blend using Guid(65680878610b1024b92d7093285f1626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f8ac9d90d900fdb5cba9d147622e12d') in 0.025827 seconds
+  Import took 0.032992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.964011 seconds.
+  path: Assets/Props/TropicalWater_Plane.blend
+  artifactKey: Guid(65680878610b1024b92d7093285f1626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/TropicalWater_Plane.blend using Guid(65680878610b1024b92d7093285f1626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c8ed0abaad5f06ac06fdfb05ffc2b18') in 0.027614 seconds
+  Import took 0.034523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.565613 seconds.
+  path: Assets/Props/TropicalWater_Plane.blend
+  artifactKey: Guid(65680878610b1024b92d7093285f1626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/TropicalWater_Plane.blend using Guid(65680878610b1024b92d7093285f1626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b97be9a5e8a8b97cf09ae8cdacb7422b') in 0.025203 seconds
+  Import took 0.031697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.186991 seconds.
+  path: Assets/Props/TropicalWater_Plane.blend
+  artifactKey: Guid(65680878610b1024b92d7093285f1626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/TropicalWater_Plane.blend using Guid(65680878610b1024b92d7093285f1626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '230ddcf6bf984411391cf3c447f5c4ea') in 0.026618 seconds
+  Import took 0.033780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.536933 seconds.
+  path: Assets/Props/TropicalWater_Plane.blend
+  artifactKey: Guid(65680878610b1024b92d7093285f1626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/TropicalWater_Plane.blend using Guid(65680878610b1024b92d7093285f1626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dd1d8e7e360b80f6cb58ed3479c6399') in 0.027609 seconds
+  Import took 0.034293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 111.195955 seconds.
+  path: Assets/Props/TropicalWater_Plane.blend
+  artifactKey: Guid(65680878610b1024b92d7093285f1626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/TropicalWater_Plane.blend using Guid(65680878610b1024b92d7093285f1626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d292ccd39ef9289f16ed6e392554433') in 0.028918 seconds
+  Import took 0.036409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 325.426306 seconds.
+  path: Assets/Props/Water Shader.shadergraph
+  artifactKey: Guid(c2d5e2f2b3eb3284b97ecb27baa02b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Water Shader.shadergraph using Guid(c2d5e2f2b3eb3284b97ecb27baa02b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0407b7411da2b517c302613ff642dd8e') in 0.008360 seconds
+  Import took 0.015656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.428064 seconds.
+  path: Assets/Props/Water Shader.shadergraph
+  artifactKey: Guid(c2d5e2f2b3eb3284b97ecb27baa02b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Water Shader.shadergraph using Guid(c2d5e2f2b3eb3284b97ecb27baa02b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0407b7411da2b517c302613ff642dd8e') in 0.004201 seconds
+  Import took 0.010422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.831017 seconds.
+  path: Assets/Props/Water Shader Material.mat
+  artifactKey: Guid(1dc81949094ac7a4d8292e2b5399a7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Water Shader Material.mat using Guid(1dc81949094ac7a4d8292e2b5399a7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af9d23eeb35ba2e99484b402453bd4bd') in 0.025268 seconds
+  Import took 0.032421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 857.495765 seconds.
+  path: Assets/Props/Water Shader.shadergraph
+  artifactKey: Guid(c2d5e2f2b3eb3284b97ecb27baa02b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Water Shader.shadergraph using Guid(c2d5e2f2b3eb3284b97ecb27baa02b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a65f5958dce1911fcfe40b6a5783116e') in 0.004019 seconds
+  Import took 0.010873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 131.019499 seconds.
+  path: Assets/Props/Water Shader.shadergraph
+  artifactKey: Guid(c2d5e2f2b3eb3284b97ecb27baa02b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Water Shader.shadergraph using Guid(c2d5e2f2b3eb3284b97ecb27baa02b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24f2e9928734adc8ab92b66574b76439') in 0.003808 seconds
+  Import took 0.010618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 335.493014 seconds.
+  path: Assets/Props/Water Shader Material.mat
+  artifactKey: Guid(1dc81949094ac7a4d8292e2b5399a7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Water Shader Material.mat using Guid(1dc81949094ac7a4d8292e2b5399a7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0e9a3b1912a667cb6af53090d9b3c6c') in 0.021896 seconds
+  Import took 0.029710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 129.322015 seconds.
+  path: Assets/Props/Water Shader Material.mat
+  artifactKey: Guid(1dc81949094ac7a4d8292e2b5399a7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Water Shader Material.mat using Guid(1dc81949094ac7a4d8292e2b5399a7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f174fec315d439c11cf84f2976d4980') in 0.023940 seconds
+  Import took 0.031377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 162.429100 seconds.
+  path: Assets/Props/Water Shader Material.mat
+  artifactKey: Guid(1dc81949094ac7a4d8292e2b5399a7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Water Shader Material.mat using Guid(1dc81949094ac7a4d8292e2b5399a7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4846a148106265c8b0a93099983f4d8') in 0.022803 seconds
+  Import took 0.030342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.935929 seconds.
+  path: Assets/Props/Water Shader Material.mat
+  artifactKey: Guid(1dc81949094ac7a4d8292e2b5399a7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Water Shader Material.mat using Guid(1dc81949094ac7a4d8292e2b5399a7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6355abb2d7da1c188dd0151861286f37') in 0.014803 seconds
+  Import took 0.021850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.726072 seconds.
+  path: Assets/Props/Water Shader Material.mat
+  artifactKey: Guid(1dc81949094ac7a4d8292e2b5399a7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Water Shader Material.mat using Guid(1dc81949094ac7a4d8292e2b5399a7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b24f238ccb1d4ce964c341a6bfdfeebe') in 0.013517 seconds
+  Import took 0.020263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 673.621744 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_asphalt3d3aba195e4d26ee.terrainlayer
+  artifactKey: Guid(f949f8e93dfe9dc4584a1eb853e1ab0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_asphalt3d3aba195e4d26ee.terrainlayer using Guid(f949f8e93dfe9dc4584a1eb853e1ab0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8768711230d189b05bc73770aacd74e4') in 0.037726 seconds
+  Import took 0.044561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_grass3d3aba195e4d26ee.terrainlayer
+  artifactKey: Guid(55c1fae5e221dda4e9e5fb160749c9e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_grass3d3aba195e4d26ee.terrainlayer using Guid(55c1fae5e221dda4e9e5fb160749c9e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fdc394f2550d153badb850e786c2d9e') in 0.011226 seconds
+  Import took 0.016951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Default_Floor3d3aba195e4d26ee.terrainlayer
+  artifactKey: Guid(e4d4f80234d074f438bbd9ad807f609b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Default_Floor3d3aba195e4d26ee.terrainlayer using Guid(e4d4f80234d074f438bbd9ad807f609b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '813359b658b11cbba1d2029bb0bcf855') in 0.012147 seconds
+  Import took 0.017672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_snow3d3aba195e4d26ee.terrainlayer
+  artifactKey: Guid(31e5cf83c63db9444af2294db1346d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_snow3d3aba195e4d26ee.terrainlayer using Guid(31e5cf83c63db9444af2294db1346d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fa0b501052e5df589701efd1b7925fb') in 0.012006 seconds
+  Import took 0.017634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.255434 seconds.
+  path: Assets/ExampleAssets/Textures
+  artifactKey: Guid(1cc500c8cdb999142b9017ebf0cf407d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures using Guid(1cc500c8cdb999142b9017ebf0cf407d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3604eeb809799b4949faeb9d7850f566') in 0.005986 seconds
+  Import took 0.012797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.822704 seconds.
+  path: Assets/ExampleAssets/Textures/Wood
+  artifactKey: Guid(cebb473fb6009324ea0c85fcc4debbdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Wood using Guid(cebb473fb6009324ea0c85fcc4debbdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '864a651dec085b1af474c70a451301e9') in 0.005839 seconds
+  Import took 0.012680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.626537 seconds.
+  path: Assets/Materials/Water_Blue.mat
+  artifactKey: Guid(5237a860e0915c94f977f17d31baba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Water_Blue.mat using Guid(5237a860e0915c94f977f17d31baba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '942830e4c42a50c3993faf20a901519d') in 0.019097 seconds
+  Import took 0.026217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006017 seconds.
+  path: Assets/Materials/Water_Blue.mat
+  artifactKey: Guid(5237a860e0915c94f977f17d31baba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Water_Blue.mat using Guid(5237a860e0915c94f977f17d31baba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '942830e4c42a50c3993faf20a901519d') in 0.010254 seconds
+  Import took 0.015388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.085225 seconds.
+  path: Assets/Stylize Water Texture
+  artifactKey: Guid(14834a0f8a9497849a75c8ff44fc10c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylize Water Texture using Guid(14834a0f8a9497849a75c8ff44fc10c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3d3e13c511fe4f99f0746d7418e8db7') in 0.005883 seconds
+  Import took 0.012082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.235145 seconds.
+  path: Assets/Stylize Water Texture/Materials
+  artifactKey: Guid(855350d72edd5b546aba24877b32789a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylize Water Texture/Materials using Guid(855350d72edd5b546aba24877b32789a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26a467262abc05ef40cc617b4e7936fd') in 0.005724 seconds
+  Import took 0.011807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.075134 seconds.
+  path: Assets/Stylize Water Texture/Materials/Stylize Water Diffuse.mat
+  artifactKey: Guid(db96e04f47f6c2a44bc6bb90f93602ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylize Water Texture/Materials/Stylize Water Diffuse.mat using Guid(db96e04f47f6c2a44bc6bb90f93602ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19a7085d0663978c1184f42974cf65fe') in 0.029473 seconds
+  Import took 0.036545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Stylize Water Texture/Materials/Stylize Water.mat
+  artifactKey: Guid(c6d38711520119c4e89ddf1ea6adc007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylize Water Texture/Materials/Stylize Water.mat using Guid(c6d38711520119c4e89ddf1ea6adc007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37dd32af9c46700f32d0b83ef00c1571') in 0.081146 seconds
+  Import took 0.088293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.940334 seconds.
+  path: Assets/Stylize Water Texture/Textures
+  artifactKey: Guid(70867da6bf5f23744b22677a580e0ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylize Water Texture/Textures using Guid(70867da6bf5f23744b22677a580e0ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae1fd4ffd7596e7a6a8b1c8af43e7f43') in 0.002271 seconds
+  Import took 0.008091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.068889 seconds.
+  path: Assets/Stylize Water Texture/Textures/Vol_36_5_Ambient_Occlusion.png
+  artifactKey: Guid(5e3b47c76d4c55d44be834515b7fe551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylize Water Texture/Textures/Vol_36_5_Ambient_Occlusion.png using Guid(5e3b47c76d4c55d44be834515b7fe551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c3e518453960880d70871b8b691b93d') in 0.023158 seconds
+  Import took 0.029697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Stylize Water Texture/Textures/Vol_36_5_Roughness.png
+  artifactKey: Guid(f10d29a80bdd36144b8303811abc46ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylize Water Texture/Textures/Vol_36_5_Roughness.png using Guid(f10d29a80bdd36144b8303811abc46ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '371a91af37e948635b79b5d8170392f4') in 0.011311 seconds
+  Import took 0.017482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Stylize Water Texture/Textures/Vol_36_5_Height.png
+  artifactKey: Guid(ef65c313b280a3245b7badb32cdc1c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylize Water Texture/Textures/Vol_36_5_Height.png using Guid(ef65c313b280a3245b7badb32cdc1c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '459c4d5316cc5f275ea9f68d638692b2') in 0.011911 seconds
+  Import took 0.017228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Stylize Water Texture/Textures/Vol_36_5_Base_Color.png
+  artifactKey: Guid(aa701e5be2dbcd24aad4fb9c3ca284da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylize Water Texture/Textures/Vol_36_5_Base_Color.png using Guid(aa701e5be2dbcd24aad4fb9c3ca284da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4388f49cc459afeebe480ab2ec8b9310') in 0.010886 seconds
+  Import took 0.016490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Stylize Water Texture/Textures/Vol_36_5_Normal.png
+  artifactKey: Guid(f805e88d3eaf0f046ac4ed03de5c7c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylize Water Texture/Textures/Vol_36_5_Normal.png using Guid(f805e88d3eaf0f046ac4ed03de5c7c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ceca4e7453c60edea804e4720c914cc') in 0.018752 seconds
+  Import took 0.024229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Stylize Water Texture/Textures/Vol_36_5_Emissive.png
+  artifactKey: Guid(92de9fbb5fd25fe40a72ae7751d83b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylize Water Texture/Textures/Vol_36_5_Emissive.png using Guid(92de9fbb5fd25fe40a72ae7751d83b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e0b9b8d02b4472d0cbb430a682b032') in 0.013242 seconds
+  Import took 0.019967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.622973 seconds.
+  path: Assets/Shaders/water textures
+  artifactKey: Guid(ba6b27c957fc43f40af4c08620e232f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/water textures using Guid(ba6b27c957fc43f40af4c08620e232f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9b42a8f16ebc5d701aaa5b2761f27fe') in 0.006483 seconds
+  Import took 0.013589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 155.087936 seconds.
+  path: Assets/Shaders/water textures/Water_001.jpg
+  artifactKey: Guid(1f1482fd4ef4de740af4f90df04d456a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/water textures/Water_001.jpg using Guid(1f1482fd4ef4de740af4f90df04d456a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c88c761f24dbf0625118e1622362e79') in 0.012850 seconds
+  Import took 0.020813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Shaders/water textures/Water_002.jpg
+  artifactKey: Guid(3623f19ef5f32ac40a03c3da1c8db4f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/water textures/Water_002.jpg using Guid(3623f19ef5f32ac40a03c3da1c8db4f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cad70f9c275398a2f3a62adc57f79528') in 0.009754 seconds
+  Import took 0.016335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 469.716856 seconds.
+  path: Assets/Shaders/water textures/Water_001.jpg
+  artifactKey: Guid(1f1482fd4ef4de740af4f90df04d456a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/water textures/Water_001.jpg using Guid(1f1482fd4ef4de740af4f90df04d456a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be59148f27ae438013be6104f2188e87') in 0.012378 seconds
+  Import took 0.018986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.656245 seconds.
+  path: Assets/Shaders/water textures/Water_003.jpg
+  artifactKey: Guid(bdca648ad974a0f40aa1bc786c137293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/water textures/Water_003.jpg using Guid(bdca648ad974a0f40aa1bc786c137293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1706e689e861e18c61734a48d44f1be7') in 0.018019 seconds
+  Import took 0.025965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.588197 seconds.
+  path: Assets/Shaders/water textures/Water_002.jpg
+  artifactKey: Guid(3623f19ef5f32ac40a03c3da1c8db4f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/water textures/Water_002.jpg using Guid(3623f19ef5f32ac40a03c3da1c8db4f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '361f03c2ea4b28510e8a4ccf2a7477c7') in 0.011178 seconds
+  Import took 0.018697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.878813 seconds.
+  path: Assets/Shaders/water textures/Water_004.png
+  artifactKey: Guid(7b5689803942aab4cad6456b44b440c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/water textures/Water_004.png using Guid(7b5689803942aab4cad6456b44b440c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e72f062d4ec738e406a6ce9b8d82561') in 0.012873 seconds
+  Import took 0.021573 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009088 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.64 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Users\nadig\OneDrive\Documentos\GitHub\VR_Environment_Avatar\VR Project\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Users\nadig\OneDrive\Documentos\GitHub\VR_Environment_Avatar\VR Project\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.645 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.31 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+Unloading 3400 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 201.7 MB.
+System memory in use after: 200.8 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 4159.
+Total: 4.303800 ms (FindLiveObjects: 0.631000 ms CreateObjectMapping: 0.103800 ms MarkObjects: 2.637500 ms  DeleteObjects: 0.929800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009233 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.92 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.22 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Users\nadig\OneDrive\Documentos\GitHub\VR_Environment_Avatar\VR Project\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Users\nadig\OneDrive\Documentos\GitHub\VR_Environment_Avatar\VR Project\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.559 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.90 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
+Unloading 3391 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 201.5 MB.
+System memory in use after: 200.6 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 4162.
+Total: 5.107900 ms (FindLiveObjects: 0.760900 ms CreateObjectMapping: 0.348600 ms MarkObjects: 2.994500 ms  DeleteObjects: 1.002500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009244 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.28 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Users\nadig\OneDrive\Documentos\GitHub\VR_Environment_Avatar\VR Project\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Users\nadig\OneDrive\Documentos\GitHub\VR_Environment_Avatar\VR Project\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.568 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.76 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
+Unloading 3391 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 201.5 MB.
+System memory in use after: 200.6 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 4165.
+Total: 5.603800 ms (FindLiveObjects: 1.112600 ms CreateObjectMapping: 0.321100 ms MarkObjects: 3.169500 ms  DeleteObjects: 0.998000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009314 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.56 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.18 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Users\nadig\OneDrive\Documentos\GitHub\VR_Environment_Avatar\VR Project\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Users\nadig\OneDrive\Documentos\GitHub\VR_Environment_Avatar\VR Project\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.601 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.44 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
+Unloading 3391 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 201.5 MB.
+System memory in use after: 200.6 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 4168.
+Total: 4.376500 ms (FindLiveObjects: 0.526300 ms CreateObjectMapping: 0.088100 ms MarkObjects: 2.762000 ms  DeleteObjects: 0.999100 ms)
+
