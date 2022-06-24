@@ -51,7 +51,7 @@ public class LevelRules : MonoBehaviour
     void Update()
     {
 
-        if (TUTORIAL_green_counter == 4)
+        if (TUTORIAL_green_counter == 3)
         {
             TUTORIAL_green_counter = 0;
             TUTORIAL_Lever.GetComponent<MeshRenderer>().material = activated_green;
