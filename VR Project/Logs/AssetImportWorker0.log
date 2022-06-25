@@ -1205,3 +1205,4 @@ Received Import Request.
 Start importing Assets/Props/Waterfall.blend using Guid(83af40d51018ce14fa8a146cff018a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc1bd21200d4cd67e58cff096eb9574') in 0.019420 seconds
   Import took 0.025826 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

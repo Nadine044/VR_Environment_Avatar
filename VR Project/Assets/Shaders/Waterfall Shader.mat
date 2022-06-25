@@ -33,14 +33,14 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _BottomBrightness: 1.02
+    - _BottomBrightness: 1.77
     - _BottomStrenght: 31.14
     - _Erosion: 0
     - _VertexOffsetAmount: 0.37
-    - _VoronoiScale: 30.08
-    - _VoronoiSpeed: 3
+    - _VoronoiScale: 26
+    - _VoronoiSpeed: -3
     - _WaterAmount: 2.39
     m_Colors:
-    - _WaterColor: {r: 0, g: 0.617, b: 0.3907666, a: 1}
+    - _WaterColor: {r: 0, g: 0.65882355, b: 0.34039214, a: 1}
     - _WaterSpeed: {r: 0, g: 0.14, b: 0, a: 0}
   m_BuildTextureStacks: []
