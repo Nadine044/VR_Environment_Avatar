@@ -48,5 +48,7 @@ Material:
     - _Strength: 0.48
     m_Colors:
     - _Deep_Water_Color: {r: 0, g: 0.83137256, b: 0.7321352, a: 0.6666667}
+    - _MainTilingOffset: {r: 40, g: 40, b: 0, a: 0}
+    - _SecundaryTilingOffset: {r: 10, g: 10, b: 0, a: 0}
     - _Shallow_Water_Color: {r: 0.5613207, g: 1, b: 0.7650903, a: 0.019607844}
   m_BuildTextureStacks: []

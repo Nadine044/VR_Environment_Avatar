@@ -42,11 +42,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _DissolveAmount: 0.28
-    - _DissolvePower: 4.09
+    - _DissolvePower: 6.19
     - _DistortionAmount: 0.241
     - _VoronoiScale: 10
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.38235947, g: 0.82958347, b: 0.53257215, a: 1}
     - _ScrollSpeed: {r: 0, g: 0.6, b: 0, a: 0}
     - _VoronoiSpeed: {r: 0, g: 0.2, b: 0, a: 0}
   m_BuildTextureStacks: []
