@@ -1,0 +1,1781 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.1f1 (270dd8c3da1c) revision 2559448'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'es' Physical Memory: 16336 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/nadig/OneDrive/Documentos/GitHub/VR_Environment_Avatar/VR Project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58442
+Successfully changed project path to: C:/Users/nadig/OneDrive/Documentos/GitHub/VR_Environment_Avatar/VR Project
+C:/Users/nadig/OneDrive/Documentos/GitHub/VR_Environment_Avatar/VR Project
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 91.48 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 1.42 ms.
+Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/nadig/OneDrive/Documentos/GitHub/VR_Environment_Avatar/VR Project/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1e89)
+    Vendor:   
+    VRAM:     5968 MB
+    Driver:   30.0.14.9729
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56744
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001695 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 78.26 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.149 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008948 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 78.53 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Users\nadig\OneDrive\Documentos\GitHub\VR_Environment_Avatar\VR Project\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Users\nadig\OneDrive\Documentos\GitHub\VR_Environment_Avatar\VR Project\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.500 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.27 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+Unloading 3569 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 188.7 MB.
+System memory in use after: 187.4 MB.
+
+Unloading 64 unused Assets to reduce memory usage. Loaded Objects now: 4040.
+Total: 5.647000 ms (FindLiveObjects: 0.813000 ms CreateObjectMapping: 0.123400 ms MarkObjects: 3.516000 ms  DeleteObjects: 1.192700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/QA_Books/Prefabs/Book_54.prefab
+  artifactKey: Guid(e153b61442ea1934fb28b02070fff4c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_54.prefab using Guid(e153b61442ea1934fb28b02070fff4c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da4481a6eb0f6438b29abfa88b96b172') in 0.205398 seconds
+  Import took 0.213563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/QA_Books/Prefabs/Book_18.prefab
+  artifactKey: Guid(716f6e89ae77a3c4099c9b880caece9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_18.prefab using Guid(716f6e89ae77a3c4099c9b880caece9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abff2969ec123e8da2fbe591b6adc641') in 0.028436 seconds
+  Import took 0.034943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/QA_Books/Prefabs/Book_08.prefab
+  artifactKey: Guid(10f98680396ab2044bd7bf1218606516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_08.prefab using Guid(10f98680396ab2044bd7bf1218606516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cf168d7edaee74b3475cac748cbbec4') in 0.032777 seconds
+  Import took 0.039184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/QA_Books/Prefabs/Book_55.prefab
+  artifactKey: Guid(e36ef7331c23e234398a1ec25f0ef901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_55.prefab using Guid(e36ef7331c23e234398a1ec25f0ef901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec0988fb3653abcd67ddcf73fa3d4181') in 0.029615 seconds
+  Import took 0.037186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/QA_Books/Prefabs/Book_01.prefab
+  artifactKey: Guid(8eabee3a247b5fe41bfdcf4b301c41a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_01.prefab using Guid(8eabee3a247b5fe41bfdcf4b301c41a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8832e7eafdfba9f96e445600cf402872') in 0.026943 seconds
+  Import took 0.035718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/QA_Books/Prefabs/Book_13.prefab
+  artifactKey: Guid(33870fbe93d82aa42bbf30d1b6ca6dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_13.prefab using Guid(33870fbe93d82aa42bbf30d1b6ca6dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c71d31fbcf872954ba387f0ef636d7e8') in 0.034696 seconds
+  Import took 0.044518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000413 seconds.
+  path: Assets/QA_Books/Prefabs/Book_10.prefab
+  artifactKey: Guid(1a462e7be4e492c42a318ecaa51de6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_10.prefab using Guid(1a462e7be4e492c42a318ecaa51de6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a71dea690f662a1d86d14c9d23c794f2') in 0.041868 seconds
+  Import took 0.052592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/QA_Books/Prefabs/Book_28.prefab
+  artifactKey: Guid(0d1433aefa5efa844aa58b37661b0dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_28.prefab using Guid(0d1433aefa5efa844aa58b37661b0dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15c3548bb0ae0aa9b387b6177eab8f9f') in 0.033679 seconds
+  Import took 0.042432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/QA_Books/Prefabs/Book_46.prefab
+  artifactKey: Guid(45db99617d415c84c9c1967342b84c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_46.prefab using Guid(45db99617d415c84c9c1967342b84c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2197f801a7ecf06e454e3e6f8be07cb6') in 0.028656 seconds
+  Import took 0.035835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/QA_Books/Prefabs/Book_24.prefab
+  artifactKey: Guid(9892017200d0cc94d88831a60a2060b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_24.prefab using Guid(9892017200d0cc94d88831a60a2060b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3bac8d26f8d2f8fb92380084e103df1') in 0.020665 seconds
+  Import took 0.027773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/QA_Books/Prefabs/Book_36.prefab
+  artifactKey: Guid(f903dd03da67547439b997774d31c9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_36.prefab using Guid(f903dd03da67547439b997774d31c9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd990edf7e56ed717a105bffa284949e0') in 0.018611 seconds
+  Import took 0.025617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/QA_Books/Prefabs
+  artifactKey: Guid(a94c59f662df59d478a3e66ab4c7a95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs using Guid(a94c59f662df59d478a3e66ab4c7a95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cbe24c8179d12c8699578f0355aec8c') in 0.006476 seconds
+  Import took 0.011951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/QA_Books/Prefabs/Book_51.prefab
+  artifactKey: Guid(ef961ef73dbbcc948b123a983b8e1aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_51.prefab using Guid(ef961ef73dbbcc948b123a983b8e1aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fe3b3053a42e69f05f864d29836a0a2') in 0.020567 seconds
+  Import took 0.027729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/QA_Books/Prefabs/Book_40.prefab
+  artifactKey: Guid(bf3d1b965adae8a458c3e89db971211a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_40.prefab using Guid(bf3d1b965adae8a458c3e89db971211a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '776e3a86b0e47dbb37559c5df4845157') in 0.019920 seconds
+  Import took 0.026298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/QA_Books/Prefabs/Book_45.prefab
+  artifactKey: Guid(e73134f143ea4dd42b33fac3c77cd425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_45.prefab using Guid(e73134f143ea4dd42b33fac3c77cd425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a82dfad2ced58cc0e522c85a4239892') in 0.018760 seconds
+  Import took 0.025358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/QA_Books/Prefabs/Book_64.prefab
+  artifactKey: Guid(c19de27ec7b52aa418875a42f141f928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_64.prefab using Guid(c19de27ec7b52aa418875a42f141f928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b131bca1583d93848405d17ec260f36') in 0.018497 seconds
+  Import took 0.025045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/QA_Books/Prefabs/Book_48.prefab
+  artifactKey: Guid(1a07456d67796204ea7678dbe6cfe362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_48.prefab using Guid(1a07456d67796204ea7678dbe6cfe362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c43f3d6ce844fe388dbce8a839f2b05e') in 0.025766 seconds
+  Import took 0.039479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/QA_Books/Prefabs/Book_56.prefab
+  artifactKey: Guid(f7adbd815098e964f87fe714f15c93a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_56.prefab using Guid(f7adbd815098e964f87fe714f15c93a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cddb1ea9de9736e228b9604ea908d477') in 0.019399 seconds
+  Import took 0.026378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/QA_Books/Prefabs/Book_14.prefab
+  artifactKey: Guid(f09e10b910ed4794cb1663d92c5ef4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_14.prefab using Guid(f09e10b910ed4794cb1663d92c5ef4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2369ef0ebd40230f5226dcfda8c595c4') in 0.022010 seconds
+  Import took 0.029967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/QA_Books/Prefabs/Book_29.prefab
+  artifactKey: Guid(e67c8e956fbecc349b4e8470d5ae65c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_29.prefab using Guid(e67c8e956fbecc349b4e8470d5ae65c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63c099596bc97b594f4a68c1586c6fee') in 0.025326 seconds
+  Import took 0.031895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/QA_Books/Prefabs/Book_58.prefab
+  artifactKey: Guid(17935c810bab2cf459f498defd29f2b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_58.prefab using Guid(17935c810bab2cf459f498defd29f2b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32a2dd42362a0ec253d0373ee10b91b0') in 0.021739 seconds
+  Import took 0.027575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/QA_Books/Prefabs/Book_35.prefab
+  artifactKey: Guid(0a49c3d3842ff4a4e804005553b3b62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_35.prefab using Guid(0a49c3d3842ff4a4e804005553b3b62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e749c3747870199a5f71a05cb24f85b') in 0.017975 seconds
+  Import took 0.023749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/QA_Books/Prefabs/Book_41.prefab
+  artifactKey: Guid(5cc3acbf92ca1414f9e5202c88903015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_41.prefab using Guid(5cc3acbf92ca1414f9e5202c88903015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eb4db5338d1ed0bf2b99b286220c75a') in 0.019377 seconds
+  Import took 0.025636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/QA_Books/Prefabs/Book_33.prefab
+  artifactKey: Guid(f0fbe3a45c915cd479daa188875b76e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_33.prefab using Guid(f0fbe3a45c915cd479daa188875b76e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f90a057a1c5537a78f2bb841d444a9a') in 0.021074 seconds
+  Import took 0.028860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/QA_Books/Prefabs/Book_43.prefab
+  artifactKey: Guid(4a659989bfe2e50459a178b9cb924616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_43.prefab using Guid(4a659989bfe2e50459a178b9cb924616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b23d9d9bf4e8db4245ac8ea029806755') in 0.018249 seconds
+  Import took 0.024770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/QA_Books/Prefabs/Book_03.prefab
+  artifactKey: Guid(d4ea1b5a817a24748a674f21c65f6c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_03.prefab using Guid(d4ea1b5a817a24748a674f21c65f6c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b954857ebbde14d9cd22f40e985a20ee') in 0.019257 seconds
+  Import took 0.025946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/QA_Books/Prefabs/Book_27.prefab
+  artifactKey: Guid(c5dc42355e9922149ba62e416f86b2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_27.prefab using Guid(c5dc42355e9922149ba62e416f86b2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9122b2087d6ebb7a48a1fd74a5ad26ae') in 0.021092 seconds
+  Import took 0.027811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/QA_Books/Prefabs/Book_61.prefab
+  artifactKey: Guid(f304955bdd4a7354ea8ab44b24698473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_61.prefab using Guid(f304955bdd4a7354ea8ab44b24698473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61bbf2f2b0a208e7d3b2fcaa320fcfc2') in 0.018775 seconds
+  Import took 0.024440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/QA_Books/Prefabs/Book_49.prefab
+  artifactKey: Guid(5d4db5d6c438345449a490b952d41908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_49.prefab using Guid(5d4db5d6c438345449a490b952d41908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b2f3f949199a32b31957fc55d1a9955') in 0.022593 seconds
+  Import took 0.029268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/QA_Books/Prefabs/Book_17.prefab
+  artifactKey: Guid(114f2b09cbdeb8d42b7a7f4ab0c2ceb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_17.prefab using Guid(114f2b09cbdeb8d42b7a7f4ab0c2ceb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b11a7f185a7ad72e8f7a0b043b4e7c0') in 0.022381 seconds
+  Import took 0.029032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/QA_Books/Prefabs/Book_20.prefab
+  artifactKey: Guid(2ae90898f05ba93459b427408c855a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_20.prefab using Guid(2ae90898f05ba93459b427408c855a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e9dbaded0698ea86b2276f4a6bc00c') in 0.024485 seconds
+  Import took 0.035261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/QA_Books/Prefabs/Book_05.prefab
+  artifactKey: Guid(ea73ac8887b117a46a3858c8d1887c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_05.prefab using Guid(ea73ac8887b117a46a3858c8d1887c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eea4559105812f9ee07f9e3830e33f68') in 0.023668 seconds
+  Import took 0.031686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/QA_Books/Prefabs/Book_23.prefab
+  artifactKey: Guid(a143fa61fa75c1948b865ebba53b13cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_23.prefab using Guid(a143fa61fa75c1948b865ebba53b13cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d612822ebd329608ad0cd7ee934c80e') in 0.020300 seconds
+  Import took 0.030370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008279 seconds.
+  path: Assets/QA_Books/Prefabs/Book_39.prefab
+  artifactKey: Guid(4a00219ec3deacf4689500595661ac7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_39.prefab using Guid(4a00219ec3deacf4689500595661ac7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27ee405b5b78838101ddf942bc7a2fc2') in 0.093433 seconds
+  Import took 0.104243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/QA_Books/Prefabs/Book_12.prefab
+  artifactKey: Guid(c04c60cb87ebdc8458571b190fb2255d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_12.prefab using Guid(c04c60cb87ebdc8458571b190fb2255d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b2763b33fb298268af6f5de5578b13b') in 0.022716 seconds
+  Import took 0.030763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/QA_Books/Prefabs/Book_15.prefab
+  artifactKey: Guid(afa8cf251f4d24d4bac5124efaae45f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_15.prefab using Guid(afa8cf251f4d24d4bac5124efaae45f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84095e700cb1e5c62f88cbe4e29c9d27') in 0.019819 seconds
+  Import took 0.026082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/QA_Books/Prefabs/Book_22.prefab
+  artifactKey: Guid(a0364dc92de710744b46e7c19fca3d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_22.prefab using Guid(a0364dc92de710744b46e7c19fca3d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ee071789d193d7dae421dd58e750c7d') in 0.018967 seconds
+  Import took 0.025828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/QA_Books/Prefabs/Book_53.prefab
+  artifactKey: Guid(254a6646a889c714bb948279451aaf33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_53.prefab using Guid(254a6646a889c714bb948279451aaf33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c4f3a73809a3b6929675fe8f2e8524a') in 0.018866 seconds
+  Import took 0.025693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/QA_Books/Prefabs/Book_62.prefab
+  artifactKey: Guid(c0bfcc8ab58c98d48bbe71e3091f0b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_62.prefab using Guid(c0bfcc8ab58c98d48bbe71e3091f0b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a31dfc9de29384d5153534c0f2f87c55') in 0.019976 seconds
+  Import took 0.028193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/QA_Books/Prefabs/Book_11.prefab
+  artifactKey: Guid(c33441093f64d17408edb5fff22c8b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_11.prefab using Guid(c33441093f64d17408edb5fff22c8b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a3963b829755bda987b9439312154f9') in 0.020556 seconds
+  Import took 0.027742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/QA_Books/Prefabs/Book_25.prefab
+  artifactKey: Guid(9d95d61f077f93045afb3b743d45b14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_25.prefab using Guid(9d95d61f077f93045afb3b743d45b14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20af6eb0d5d444523840242e9de9a273') in 0.018990 seconds
+  Import took 0.025225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/QA_Books/Prefabs/Book_50.prefab
+  artifactKey: Guid(7332e86eb26e8304cb599d59557fd313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_50.prefab using Guid(7332e86eb26e8304cb599d59557fd313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f23797d37be2588422a5cfac8f7171bb') in 0.017690 seconds
+  Import took 0.024331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/QA_Books/Prefabs/Book_38.prefab
+  artifactKey: Guid(8d3390da787d3844bbc4bcde9ca169ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_38.prefab using Guid(8d3390da787d3844bbc4bcde9ca169ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a15d53f8f57ee772ad88b541608194') in 0.017413 seconds
+  Import took 0.023499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/QA_Books
+  artifactKey: Guid(126ad277afd849d4ab68db16be4e63a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books using Guid(126ad277afd849d4ab68db16be4e63a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdbd5120415b4774dd4bf07940846610') in 0.005599 seconds
+  Import took 0.010953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/QA_Books/Prefabs/Book_47.prefab
+  artifactKey: Guid(6cd39d8a547cc11408d7c675612d6767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_47.prefab using Guid(6cd39d8a547cc11408d7c675612d6767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97cbce84d65ac5b84e995990c1fc5044') in 0.018219 seconds
+  Import took 0.025411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/QA_Books/Prefabs/Book_04.prefab
+  artifactKey: Guid(273dfcdaa60d0b540b1012e22b97d74f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_04.prefab using Guid(273dfcdaa60d0b540b1012e22b97d74f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc4a904d1fb63ee40243c8ec812586f3') in 0.020168 seconds
+  Import took 0.026546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/QA_Books/Prefabs/Book_07.prefab
+  artifactKey: Guid(f59a33c8074a57247b87c5b2160c5660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_07.prefab using Guid(f59a33c8074a57247b87c5b2160c5660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d9ca7efee3a488711f306993ee08d65') in 0.018218 seconds
+  Import took 0.024312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/QA_Books/Prefabs/Book_32.prefab
+  artifactKey: Guid(139e2fe27974ac442890334914e64148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_32.prefab using Guid(139e2fe27974ac442890334914e64148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20c3968cead654b9f61a5082a612f5f2') in 0.019815 seconds
+  Import took 0.026933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/QA_Books/Prefabs/Book_16.prefab
+  artifactKey: Guid(b9cc39342554d8f4b876f442e992b119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_16.prefab using Guid(b9cc39342554d8f4b876f442e992b119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3efb999149b59ff4e8dabf5ccec87a05') in 0.021662 seconds
+  Import took 0.029415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/QA_Books/Prefabs/Book_52.prefab
+  artifactKey: Guid(5c50068b0aa4ea9469f5b39c43f09cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_52.prefab using Guid(5c50068b0aa4ea9469f5b39c43f09cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95eb1371f00e26ecbae178a27341285c') in 0.017507 seconds
+  Import took 0.024051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/QA_Books/Prefabs/Book_59.prefab
+  artifactKey: Guid(03723e9b1fea55c4388212dd969437ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_59.prefab using Guid(03723e9b1fea55c4388212dd969437ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c5ee61f5d562ef6c5c4ff28ff7a5bfe') in 0.020320 seconds
+  Import took 0.026706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/QA_Books/Prefabs/Book_44.prefab
+  artifactKey: Guid(31a995afe3fc9f54ca95ab3cc78b6800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_44.prefab using Guid(31a995afe3fc9f54ca95ab3cc78b6800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4049494b3afe62cdc5e8650ec6237e3') in 0.017723 seconds
+  Import took 0.024570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/QA_Books/Prefabs/Book_42.prefab
+  artifactKey: Guid(813e9023ddcc5404c907e6d25b69f28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_42.prefab using Guid(813e9023ddcc5404c907e6d25b69f28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd9ae57957aba12fcbc5ed2c6bc9b73') in 0.017691 seconds
+  Import took 0.024280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/QA_Books/Prefabs/Book_21.prefab
+  artifactKey: Guid(eb229865cb9c5ff4ba795c601340c1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_21.prefab using Guid(eb229865cb9c5ff4ba795c601340c1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da8c3457cac2c92f9a720b6f71ac2a6c') in 0.019817 seconds
+  Import took 0.026261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/QA_Books/Prefabs/Book_09.prefab
+  artifactKey: Guid(a33884f9b265434498736dbc4c5bcf03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_09.prefab using Guid(a33884f9b265434498736dbc4c5bcf03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a917508570b935e880f7ca621fbb3b21') in 0.018580 seconds
+  Import took 0.024414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/QA_Books/Prefabs/Book_19.prefab
+  artifactKey: Guid(634bb5e240f1cdc4eabfc48f21381190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_19.prefab using Guid(634bb5e240f1cdc4eabfc48f21381190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33d3553fdaa6ecd92eb236862481545b') in 0.017533 seconds
+  Import took 0.023927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/QA_Books/Prefabs/Book_60.prefab
+  artifactKey: Guid(76b8ffd7ef9a0dd448a25ba7816f7f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_60.prefab using Guid(76b8ffd7ef9a0dd448a25ba7816f7f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4888758f4eb56faec7d4815256c250f3') in 0.018154 seconds
+  Import took 0.025012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/QA_Books/Prefabs/Book_30.prefab
+  artifactKey: Guid(af14cfced951b234b907c737abdc0ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_30.prefab using Guid(af14cfced951b234b907c737abdc0ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d44ad6161630d6e4f7b2f2b73a62ce9') in 0.018087 seconds
+  Import took 0.024679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/QA_Books/Prefabs/Book_31.prefab
+  artifactKey: Guid(fe4952f534eafe545b99e96cd29db9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_31.prefab using Guid(fe4952f534eafe545b99e96cd29db9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62e87023e9ae839c2c018d59c659d098') in 0.017079 seconds
+  Import took 0.023803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/QA_Books/Prefabs/Book_65.prefab
+  artifactKey: Guid(fca7ec2f1db4f5c4db10cdbdcda46f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_65.prefab using Guid(fca7ec2f1db4f5c4db10cdbdcda46f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3346f7658a4d152fc56b24cf13fa855b') in 0.018465 seconds
+  Import took 0.024181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/QA_Books/Prefabs/Book_02.prefab
+  artifactKey: Guid(7eeab333ed7416f498139b2846cbb10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_02.prefab using Guid(7eeab333ed7416f498139b2846cbb10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b2b873442fc99a4e30e5176464cbf2e') in 0.018467 seconds
+  Import took 0.024064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/QA_Books/Prefabs/Book_57.prefab
+  artifactKey: Guid(c9af877c9e2ef964baffd5ad3713c982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_57.prefab using Guid(c9af877c9e2ef964baffd5ad3713c982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6b60036608724b2a3ee81e125b2fb57') in 0.018177 seconds
+  Import took 0.024720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/QA_Books/Prefabs/Book_26.prefab
+  artifactKey: Guid(ef571f725b2d0b648ae27fc811b7365e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_26.prefab using Guid(ef571f725b2d0b648ae27fc811b7365e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '531a5e7fd91a91ea33f2ab8a2366e5fa') in 0.018908 seconds
+  Import took 0.025423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/QA_Books/Prefabs/Book_63.prefab
+  artifactKey: Guid(4f1d91d1d99f71c4381dbf3b14201a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_63.prefab using Guid(4f1d91d1d99f71c4381dbf3b14201a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8b77796ee87f64bb3f6b551e5b3f3f4') in 0.018441 seconds
+  Import took 0.024636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/QA_Books/Prefabs/Book_06.prefab
+  artifactKey: Guid(4242ccbec40f0ed448d91b2eb3cfba80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_06.prefab using Guid(4242ccbec40f0ed448d91b2eb3cfba80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd768682e50b9f33172cb543087d6f505') in 0.018155 seconds
+  Import took 0.024007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/QA_Books/Prefabs/Book_34.prefab
+  artifactKey: Guid(930d7b1a750d2f144a91ab60fca13b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_34.prefab using Guid(930d7b1a750d2f144a91ab60fca13b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fc23a3b29d8915bdcda12c144158615') in 0.019629 seconds
+  Import took 0.026545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/QA_Books/Prefabs/Book_37.prefab
+  artifactKey: Guid(f863c0c796c652c4fa6b28893cd313ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_37.prefab using Guid(f863c0c796c652c4fa6b28893cd313ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fed51627fc806c5e6dcb5f3b642b533') in 0.017500 seconds
+  Import took 0.023606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 275.948068 seconds.
+  path: Assets/QA_Books/Textures
+  artifactKey: Guid(a3406816e9f041f4280fba1da372ded7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Textures using Guid(a3406816e9f041f4280fba1da372ded7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfbdbf382fa0349dd7a95fddaa01b261') in 0.005292 seconds
+  Import took 0.012077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.097555 seconds.
+  path: Assets/QA_Books/Textures/Books_bc.tga
+  artifactKey: Guid(451bd5097af6eea4ea4e1f6a61620302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Textures/Books_bc.tga using Guid(451bd5097af6eea4ea4e1f6a61620302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '402e3c67fffa711afe8cdb5deb3d80b9') in 0.034743 seconds
+  Import took 0.040733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/QA_Books/Textures/BooksA_bc.tga
+  artifactKey: Guid(f0e44eb8f2942b9408ac537a26b9f908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Textures/BooksA_bc.tga using Guid(f0e44eb8f2942b9408ac537a26b9f908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf4bf169775e3ce21c8339b4ae0560e9') in 0.011453 seconds
+  Import took 0.017363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/QA_Books/Textures/Books_n.tga
+  artifactKey: Guid(4c5baded30d73c548af3399963326b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Textures/Books_n.tga using Guid(4c5baded30d73c548af3399963326b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22aec9366b8afd2e8f8ce33b772a4799') in 0.013378 seconds
+  Import took 0.018729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/QA_Books/Textures/Books_m_ao_g.tga
+  artifactKey: Guid(4f1d74881a0aee8468b847c4222906db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Textures/Books_m_ao_g.tga using Guid(4f1d74881a0aee8468b847c4222906db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ad0405fa5291c5cd7e541780da9434d') in 0.012525 seconds
+  Import took 0.017214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/QA_Books/Textures/BooksA_m_ao_g.tga
+  artifactKey: Guid(225fabe9fa8940c42b55bf1361356449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Textures/BooksA_m_ao_g.tga using Guid(225fabe9fa8940c42b55bf1361356449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1438f91e3330f0f928f812202e119f5c') in 0.010938 seconds
+  Import took 0.016389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/QA_Books/Textures/BooksA_n.tga
+  artifactKey: Guid(0d19b33d6e0d94a4097e5daaa08a5d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Textures/BooksA_n.tga using Guid(0d19b33d6e0d94a4097e5daaa08a5d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80c796af60da09d1655a09de826b2599') in 0.037218 seconds
+  Import took 0.043553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.422487 seconds.
+  path: Assets/QA_Books/Models
+  artifactKey: Guid(2558252609cf4e04ebeab285f9e3dcf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models using Guid(2558252609cf4e04ebeab285f9e3dcf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2409a2ca2cd4714a690869b92cda3c95') in 0.005480 seconds
+  Import took 0.011453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.097472 seconds.
+  path: Assets/QA_Books/Models/Book_01.fbx
+  artifactKey: Guid(eaf1b3e89a9fb804d935d4886918f2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_01.fbx using Guid(eaf1b3e89a9fb804d935d4886918f2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a58e4f8448f13f72f3a2d2f1cbed361b') in 0.042324 seconds
+  Import took 0.048960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/QA_Books/Models/Book_42.fbx
+  artifactKey: Guid(2c3ae5eea0a49084aa1d9df6c088c676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_42.fbx using Guid(2c3ae5eea0a49084aa1d9df6c088c676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0407ff42082434b2bac94023b0004ca0') in 0.021659 seconds
+  Import took 0.028316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/QA_Books/Models/Book_14.fbx
+  artifactKey: Guid(ad6e918a638ed2f4fa3403b6e28e0e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_14.fbx using Guid(ad6e918a638ed2f4fa3403b6e28e0e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acb7b576c146599ee0b91f191a879834') in 0.036136 seconds
+  Import took 0.043013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/QA_Books/Models/Book_02.fbx
+  artifactKey: Guid(1d8a5677c1af86845aaf8b37ef7358d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_02.fbx using Guid(1d8a5677c1af86845aaf8b37ef7358d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1caa313ad36b8a63b8403046f99a8b71') in 0.056982 seconds
+  Import took 0.063602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/QA_Books/Models/Book_15.fbx
+  artifactKey: Guid(bf4cb21c48a33ca4ea0dc32280d535b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_15.fbx using Guid(bf4cb21c48a33ca4ea0dc32280d535b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4cebc070d54d8d11f903eeb5888d06c') in 0.058740 seconds
+  Import took 0.065334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/QA_Books/Models/Book_40.fbx
+  artifactKey: Guid(a8c4bf83aa523cf459cb2b98f4bf04dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_40.fbx using Guid(a8c4bf83aa523cf459cb2b98f4bf04dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd611ac9fadc6e0e58822bd12b50aec0a') in 0.025381 seconds
+  Import took 0.031302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/QA_Books/Models/Book_51.fbx
+  artifactKey: Guid(a6c9ceeb6b59c444f9160c9380cf6ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_51.fbx using Guid(a6c9ceeb6b59c444f9160c9380cf6ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '616e909fff77c8bdb596ddf74be0432f') in 0.034189 seconds
+  Import took 0.040475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/QA_Books/Models/Book_38.fbx
+  artifactKey: Guid(772b87bf431bb2d4eaf6f849638ed333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_38.fbx using Guid(772b87bf431bb2d4eaf6f849638ed333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdf2c733df54dbbd35a66321f32c9771') in 0.022759 seconds
+  Import took 0.031073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/QA_Books/Models/Book_53.fbx
+  artifactKey: Guid(72b41ab17c146ac4d80539841188484f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_53.fbx using Guid(72b41ab17c146ac4d80539841188484f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ff49e4b06f27d4e507973a728f4fbcd') in 0.041549 seconds
+  Import took 0.049725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/QA_Books/Models/Book_41.fbx
+  artifactKey: Guid(5b8be49950753b1409dc5598760848b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_41.fbx using Guid(5b8be49950753b1409dc5598760848b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10c1f8bde7068520b110d4e31ba5e74c') in 0.046759 seconds
+  Import took 0.052589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/QA_Books/Models/Book_62.fbx
+  artifactKey: Guid(791bfdd2fbfdd5c4792f37933795022e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_62.fbx using Guid(791bfdd2fbfdd5c4792f37933795022e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9983f97498e8eeeef579775dd17c2f5') in 0.035562 seconds
+  Import took 0.042426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/QA_Books/Models/Book_09.fbx
+  artifactKey: Guid(ee182e77c8e2ba741859833e38eeb376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_09.fbx using Guid(ee182e77c8e2ba741859833e38eeb376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59a8eaee2008d8697db78661981bca24') in 0.031801 seconds
+  Import took 0.038897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/QA_Books/Models/Book_23.fbx
+  artifactKey: Guid(d70511e7272f13343b756e560307a41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_23.fbx using Guid(d70511e7272f13343b756e560307a41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6f5d63931351594e02069478a5e02e9') in 0.031574 seconds
+  Import took 0.037771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/QA_Books/Models/Book_34.fbx
+  artifactKey: Guid(00d91b8ac97adcd49ae90abb0fdb024a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_34.fbx using Guid(00d91b8ac97adcd49ae90abb0fdb024a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1e703a7b733d704fb29c2bfb31bb53d') in 0.032718 seconds
+  Import took 0.038487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/QA_Books/Models/Book_55.fbx
+  artifactKey: Guid(16878e18eef524c4a9adc60740213bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_55.fbx using Guid(16878e18eef524c4a9adc60740213bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c7ef8f7ed6a427e838fdcd1ede36e5a') in 0.028123 seconds
+  Import took 0.034190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/QA_Books/Models/Book_24.fbx
+  artifactKey: Guid(9f618ed8ac70ac04c987226b33110a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_24.fbx using Guid(9f618ed8ac70ac04c987226b33110a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c2e827b5a28b8eb4646b2cd7cf4daf3') in 0.022313 seconds
+  Import took 0.028771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/QA_Books/Models/Book_32.fbx
+  artifactKey: Guid(f9b0e36b83f997044b1bc7ee36034271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_32.fbx using Guid(f9b0e36b83f997044b1bc7ee36034271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f6167f090b89a0bdca3e54ab8d8b75a') in 0.022443 seconds
+  Import took 0.028641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/QA_Books/Models/Book_33.fbx
+  artifactKey: Guid(e5dcb89eacb9fe0479121b9143614c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_33.fbx using Guid(e5dcb89eacb9fe0479121b9143614c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd586d9b7829019bc916c5bfb368bc5') in 0.020587 seconds
+  Import took 0.026853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/QA_Books/Models/Book_47.fbx
+  artifactKey: Guid(82445202768b6d144be88d36c9ebf587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_47.fbx using Guid(82445202768b6d144be88d36c9ebf587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0832f902e540d89f43cbe8ba9db80ff1') in 0.021694 seconds
+  Import took 0.027796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/QA_Books/Models/Book_07.fbx
+  artifactKey: Guid(5dd4e38f8cf3a48469397fecb106d376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_07.fbx using Guid(5dd4e38f8cf3a48469397fecb106d376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '886566b098f4b3317bafe22fb45390ce') in 0.018558 seconds
+  Import took 0.025131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/QA_Books/Models/Book_48.fbx
+  artifactKey: Guid(0acaf95f0704ea940804cdda02f98d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_48.fbx using Guid(0acaf95f0704ea940804cdda02f98d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dcfc70b3b64d68b00cac968956a73ca') in 0.020982 seconds
+  Import took 0.027756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/QA_Books/Models/Book_63.fbx
+  artifactKey: Guid(07754f913d64acf43ae44a9eb8a167af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_63.fbx using Guid(07754f913d64acf43ae44a9eb8a167af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd03fbf19814dfd49e388c0de90137593') in 0.023050 seconds
+  Import took 0.029150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/QA_Books/Models/Book_04.fbx
+  artifactKey: Guid(dd3fa9eb6a714a7418eab6e6aa266911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_04.fbx using Guid(dd3fa9eb6a714a7418eab6e6aa266911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '152f803e14d7ab9e08e582df1f20bf0d') in 0.020069 seconds
+  Import took 0.026185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/QA_Books/Models/Book_54.fbx
+  artifactKey: Guid(16a01d9b51a3e474090487a520a478a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_54.fbx using Guid(16a01d9b51a3e474090487a520a478a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3962ace4fe88ed2161c0f0930487748') in 0.020593 seconds
+  Import took 0.026952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/QA_Books/Models/Book_05.fbx
+  artifactKey: Guid(5cf8fd560eefbdd41b8e573974e80706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_05.fbx using Guid(5cf8fd560eefbdd41b8e573974e80706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f68808512694a9eb0e9791ff0f890af') in 0.023079 seconds
+  Import took 0.029286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/QA_Books/Models/Book_18.fbx
+  artifactKey: Guid(b455db4ef87aeab418547683a551c3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_18.fbx using Guid(b455db4ef87aeab418547683a551c3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '647551a1b8f142f6c1293e9fdf11500e') in 0.021674 seconds
+  Import took 0.027704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/QA_Books/Models/Book_49.fbx
+  artifactKey: Guid(d15a743054ebb5c4db60242805b346b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_49.fbx using Guid(d15a743054ebb5c4db60242805b346b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b4280f9b6756d00614728209bc67e93') in 0.018739 seconds
+  Import took 0.024639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/QA_Books/Models/Book_21.fbx
+  artifactKey: Guid(1d697b4cbe60e9646be377967df8b96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_21.fbx using Guid(1d697b4cbe60e9646be377967df8b96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a268e282e00ce0d7b434bd3b004fbad6') in 0.019562 seconds
+  Import took 0.025900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/QA_Books/Models/Book_08.fbx
+  artifactKey: Guid(7cccc9dc81c3d5546a4e0d45165260be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_08.fbx using Guid(7cccc9dc81c3d5546a4e0d45165260be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f9dcef10b8c797b34332dcda0ff04bd') in 0.022639 seconds
+  Import took 0.028785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/QA_Books/Models/Book_26.fbx
+  artifactKey: Guid(6c8e9bc87c0ecf34baf87df07a6a0dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_26.fbx using Guid(6c8e9bc87c0ecf34baf87df07a6a0dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '049b289ddab4fad0afcfe39fa2101882') in 0.019870 seconds
+  Import took 0.026286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/QA_Books/Models/Book_60.fbx
+  artifactKey: Guid(8c42656a6d8a2444dae8837aa801df62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_60.fbx using Guid(8c42656a6d8a2444dae8837aa801df62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '410499b52f14e0e52991c00c724bf916') in 0.021426 seconds
+  Import took 0.027745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/QA_Books/Models/Book_50.fbx
+  artifactKey: Guid(c1a7263b91804a447a2cffecc6d91bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_50.fbx using Guid(c1a7263b91804a447a2cffecc6d91bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a984874a68cae041b5f679b5837cbbf') in 0.021421 seconds
+  Import took 0.027713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/QA_Books/Models/Book_10.fbx
+  artifactKey: Guid(f94f0fa6e6617f146a465ae2b0cf4519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_10.fbx using Guid(f94f0fa6e6617f146a465ae2b0cf4519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9629ea6a3dd0fe13f1b3ddcd3e1c491') in 0.022270 seconds
+  Import took 0.028007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/QA_Books/Models/Book_06.fbx
+  artifactKey: Guid(668b0582f8800a4499c06ad113ca3217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_06.fbx using Guid(668b0582f8800a4499c06ad113ca3217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46e09ff019507ff3bf02ff8e80271712') in 0.019165 seconds
+  Import took 0.025051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/QA_Books/Models/Book_39.fbx
+  artifactKey: Guid(7e51bff4adb919c458acf7b065475d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_39.fbx using Guid(7e51bff4adb919c458acf7b065475d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '382eaae45ac9a6a66817e3588e766865') in 0.018306 seconds
+  Import took 0.023975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/QA_Books/Models/Book_30.fbx
+  artifactKey: Guid(d4f4854edd0049341915b7412102c86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_30.fbx using Guid(d4f4854edd0049341915b7412102c86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10d78f88567a4e2819bb3431fa24a225') in 0.020620 seconds
+  Import took 0.027588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/QA_Books/Models/Book_17.fbx
+  artifactKey: Guid(184e46d2b5d6de94681af0a24ca8289e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_17.fbx using Guid(184e46d2b5d6de94681af0a24ca8289e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4363c588d9f6cc0e9abf75c37962470f') in 0.022984 seconds
+  Import took 0.029927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/QA_Books/Models/Book_44.fbx
+  artifactKey: Guid(cde32b7d0996f40409304777612ea43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_44.fbx using Guid(cde32b7d0996f40409304777612ea43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '563ca31d04a999c7051476642f07043d') in 0.026639 seconds
+  Import took 0.034136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/QA_Books/Models/Book_03.fbx
+  artifactKey: Guid(c43d635a5008fac448f51ab49a7a514d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_03.fbx using Guid(c43d635a5008fac448f51ab49a7a514d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1511c2cf0a0c7d2c6a83ab7a57bd9a0') in 0.020438 seconds
+  Import took 0.026338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/QA_Books/Models/Book_46.fbx
+  artifactKey: Guid(c9b026a5b4455a946ab620119e9fc7f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_46.fbx using Guid(c9b026a5b4455a946ab620119e9fc7f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d34bf66e174936ab5acc653b2a9f4e7') in 0.019438 seconds
+  Import took 0.025444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/QA_Books/Models/Book_61.fbx
+  artifactKey: Guid(74558a81b38d73243be55cbee8583582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_61.fbx using Guid(74558a81b38d73243be55cbee8583582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ee7e9c7af6201bfd84545b81ad39308') in 0.030264 seconds
+  Import took 0.037988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/QA_Books/Models/Book_19.fbx
+  artifactKey: Guid(3882d3d6b92689f4785d2137f478ad3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_19.fbx using Guid(3882d3d6b92689f4785d2137f478ad3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd2950cd57754bf6cdd1969cfa289b85') in 0.020085 seconds
+  Import took 0.027899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/QA_Books/Models/Book_31.fbx
+  artifactKey: Guid(a69a535f955511c4b80762f5c23adba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_31.fbx using Guid(a69a535f955511c4b80762f5c23adba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21df4e022f9e5113209277682eb563a9') in 0.018537 seconds
+  Import took 0.025546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/QA_Books/Models/Book_27.fbx
+  artifactKey: Guid(885f3d18491ece74b8fb00fa9b6a13c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_27.fbx using Guid(885f3d18491ece74b8fb00fa9b6a13c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1992fe7ab4a38ea6519839472d3074e2') in 0.018208 seconds
+  Import took 0.024904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/QA_Books/Models/Book_13.fbx
+  artifactKey: Guid(e73c1809ab21176409db5421e29791c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_13.fbx using Guid(e73c1809ab21176409db5421e29791c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c48e533dc16378cf046bc4c29cf7a6ba') in 0.021630 seconds
+  Import took 0.027926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/QA_Books/Models/Book_29.fbx
+  artifactKey: Guid(7809c0c3c92128449843f746af03c577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_29.fbx using Guid(7809c0c3c92128449843f746af03c577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f5ba68d2713fc80a74a962e739c53a8') in 0.020918 seconds
+  Import took 0.027498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/QA_Books/Models/Book_57.fbx
+  artifactKey: Guid(5e3a733fb8096c0409ab051e4f00a781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_57.fbx using Guid(5e3a733fb8096c0409ab051e4f00a781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62559b1ac4bdece767cf0c756d4936aa') in 0.021817 seconds
+  Import took 0.027767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/QA_Books/Models/Book_16.fbx
+  artifactKey: Guid(6c82bf657f5ccf9499d7446e2d70261c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_16.fbx using Guid(6c82bf657f5ccf9499d7446e2d70261c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a09866422bd9bf2e48a1156d1359429') in 0.019803 seconds
+  Import took 0.026123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/QA_Books/Models/Book_28.fbx
+  artifactKey: Guid(c495e72221444844bb9ded8e4b762cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_28.fbx using Guid(c495e72221444844bb9ded8e4b762cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c7ad5aaaf66bef6db87b59ef4f0541a') in 0.022225 seconds
+  Import took 0.029299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/QA_Books/Models/Book_43.fbx
+  artifactKey: Guid(0918b21b1c0aa37438dd9e6b98ad718c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_43.fbx using Guid(0918b21b1c0aa37438dd9e6b98ad718c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3697fec3c7e9772f0c996ba4023bed48') in 0.018711 seconds
+  Import took 0.025142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/QA_Books/Models/Book_58.fbx
+  artifactKey: Guid(461b2e2a41e8ca342b0cc1248c93b1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_58.fbx using Guid(461b2e2a41e8ca342b0cc1248c93b1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df53660bf5936f409d6d98dbd256d12e') in 0.021832 seconds
+  Import took 0.028442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/QA_Books/Models/Book_36.fbx
+  artifactKey: Guid(319567a8d927eb64cb78f37cfdba8e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_36.fbx using Guid(319567a8d927eb64cb78f37cfdba8e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a673410b52e2abf844b87b4637fb8fc') in 0.019068 seconds
+  Import took 0.025817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/QA_Books/Models/Book_11.fbx
+  artifactKey: Guid(1bbfcf9d3ed9d4046b4b322e05952604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_11.fbx using Guid(1bbfcf9d3ed9d4046b4b322e05952604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c3d13284a521f4c12d8a64f6dab497') in 0.021410 seconds
+  Import took 0.027748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/QA_Books/Models/Book_64.fbx
+  artifactKey: Guid(e013a3e3ac6eae14e9851a1a2022e376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_64.fbx using Guid(e013a3e3ac6eae14e9851a1a2022e376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a11c6d54edbfd79862b8338f76f56ac4') in 0.021241 seconds
+  Import took 0.028295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/QA_Books/Models/Book_59.fbx
+  artifactKey: Guid(4508e2873f6e757499767fcaf3fb1aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_59.fbx using Guid(4508e2873f6e757499767fcaf3fb1aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc87a7dac933269ffd0c44061e64f4ce') in 0.020385 seconds
+  Import took 0.026999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/QA_Books/Models/Book_25.fbx
+  artifactKey: Guid(de3391c4e2e22114391ca06dd133cb63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_25.fbx using Guid(de3391c4e2e22114391ca06dd133cb63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91c8d54355acad1ed0961883773aa9a1') in 0.021892 seconds
+  Import took 0.027833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/QA_Books/Models/Book_56.fbx
+  artifactKey: Guid(ef53951cac035224789ca96276aec623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_56.fbx using Guid(ef53951cac035224789ca96276aec623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2af91946cea1f8e55ffa08b7ab1e776f') in 0.022021 seconds
+  Import took 0.027776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/QA_Books/Models/Book_35.fbx
+  artifactKey: Guid(4395e130e8caac44fbfbe181e4b54920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_35.fbx using Guid(4395e130e8caac44fbfbe181e4b54920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05a147c5008880bd954cf7803233ca96') in 0.019192 seconds
+  Import took 0.025608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/QA_Books/Models/Book_52.fbx
+  artifactKey: Guid(0f7a1cb66547a6a479b868b91a0334c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_52.fbx using Guid(0f7a1cb66547a6a479b868b91a0334c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ea79fcfb62636efbac79b6fcbcc1196') in 0.021409 seconds
+  Import took 0.027368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/QA_Books/Models/Book_12.fbx
+  artifactKey: Guid(45845c53726b39b4589c6be9d61fc8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_12.fbx using Guid(45845c53726b39b4589c6be9d61fc8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfab6ef98fbe536a2249769ef9c64ed7') in 0.022304 seconds
+  Import took 0.028794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/QA_Books/Models/Book_45.fbx
+  artifactKey: Guid(86487fcb7649c85469ce546b89f5766e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_45.fbx using Guid(86487fcb7649c85469ce546b89f5766e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a815c4fe2a80a2e7fba9471d6d52fe8d') in 0.023820 seconds
+  Import took 0.030010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/QA_Books/Models/Book_20.fbx
+  artifactKey: Guid(3b890e30c6659e546b070ecd5f7d6a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_20.fbx using Guid(3b890e30c6659e546b070ecd5f7d6a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb932a6c35315660dadb5bd9358b3a61') in 0.022267 seconds
+  Import took 0.028858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/QA_Books/Models/Book_37.fbx
+  artifactKey: Guid(6457876546f7bc048b2c21c137b10f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_37.fbx using Guid(6457876546f7bc048b2c21c137b10f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9c699334130ce0fb74742009b20c196') in 0.020732 seconds
+  Import took 0.026675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/QA_Books/Models/Book_22.fbx
+  artifactKey: Guid(ab4f92ff88cd48d4fb6a278f49c170cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Book_22.fbx using Guid(ab4f92ff88cd48d4fb6a278f49c170cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '163febb20e394b534ace82759de3e76b') in 0.020411 seconds
+  Import took 0.026388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.533455 seconds.
+  path: Assets/QA_Books/Models/Materials
+  artifactKey: Guid(97ea208c2e5a97b459d2c5674db50577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Materials using Guid(97ea208c2e5a97b459d2c5674db50577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fd6cb58492bc988a4f2882ccccb3b0f') in 0.005284 seconds
+  Import took 0.011552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052130 seconds.
+  path: Assets/QA_Books/Models/Materials/Books_mtl.mat
+  artifactKey: Guid(5ebb57ce690a11941937bd388c024fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Materials/Books_mtl.mat using Guid(5ebb57ce690a11941937bd388c024fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84274d51b57e61e3b677557b7424e76b') in 0.027545 seconds
+  Import took 0.034230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/QA_Books/Models/Materials/BooksA_mtl.mat
+  artifactKey: Guid(158e5675bb3289b48b0e3c75d10a6ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Models/Materials/BooksA_mtl.mat using Guid(158e5675bb3289b48b0e3c75d10a6ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b598c62fcad32b2cf190b11b61dc6d69') in 0.017249 seconds
+  Import took 0.023574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 191.015919 seconds.
+  path: Assets/QA_Books/Prefabs/Book_66.prefab
+  artifactKey: Guid(5b4d8e485560e0e4d8a64438e42258dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_66.prefab using Guid(5b4d8e485560e0e4d8a64438e42258dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51f7228a2228ef0f4ecf49ad116cfd52') in 0.030436 seconds
+  Import took 0.037537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/QA_Books/Prefabs/Books_01.prefab
+  artifactKey: Guid(e25671d0d7ace2c45b234d1ea8c51c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Books_01.prefab using Guid(e25671d0d7ace2c45b234d1ea8c51c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdfc5d2ed485caff4d33f7682a3455d2') in 0.020785 seconds
+  Import took 0.027107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/QA_Books/Prefabs/Books_05.prefab
+  artifactKey: Guid(b55cadeb42ed9664191c697a2a810cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Books_05.prefab using Guid(b55cadeb42ed9664191c697a2a810cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64ab3dddde74c511aaed3f9e98ee6b88') in 0.020541 seconds
+  Import took 0.026386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/QA_Books/Prefabs/Books_03.prefab
+  artifactKey: Guid(5762c4df8a871c942b581eb368690b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Books_03.prefab using Guid(5762c4df8a871c942b581eb368690b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f8c718d30247a5d7e8e227ba96aaecf') in 0.021141 seconds
+  Import took 0.027868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/QA_Books/Prefabs/Books_10.prefab
+  artifactKey: Guid(c8722be149fc9294bbbe96f6c293f6bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Books_10.prefab using Guid(c8722be149fc9294bbbe96f6c293f6bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e90cbeee64995cb7840eb8a5595e16f8') in 0.020397 seconds
+  Import took 0.026419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/QA_Books/Prefabs/Books_06.prefab
+  artifactKey: Guid(6bdd18994543e264491fb71fed626cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Books_06.prefab using Guid(6bdd18994543e264491fb71fed626cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54bfe838ff73516c33ec975f8a74a325') in 0.031760 seconds
+  Import took 0.039426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/QA_Books/Prefabs/BookOpen_04.prefab
+  artifactKey: Guid(96b58236b5b44c848975ddea646f8ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/BookOpen_04.prefab using Guid(96b58236b5b44c848975ddea646f8ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3342eff7b3c93b2494d2fd60acb502b') in 0.037375 seconds
+  Import took 0.045743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/QA_Books/Prefabs/Books_09.prefab
+  artifactKey: Guid(dfa2e9979d6f35b4bb9735076d626b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Books_09.prefab using Guid(dfa2e9979d6f35b4bb9735076d626b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67b6c998e862bc02cd313d11f050c0e7') in 0.028524 seconds
+  Import took 0.036090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/QA_Books/Prefabs/Books_02.prefab
+  artifactKey: Guid(834e0bcc60f83bf49aa087f1a7b9422b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Books_02.prefab using Guid(834e0bcc60f83bf49aa087f1a7b9422b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80dfa097b4252fc539f94189cb577bba') in 0.031827 seconds
+  Import took 0.039450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/QA_Books/Prefabs/Book_67.prefab
+  artifactKey: Guid(d8f82ca8968ebf54e883a955cf0e4156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Book_67.prefab using Guid(d8f82ca8968ebf54e883a955cf0e4156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '146781cccccf5fd804c099c8af2cf5a2') in 0.027438 seconds
+  Import took 0.033964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/QA_Books/Prefabs/Books_08.prefab
+  artifactKey: Guid(ec8b339dbc2febd4ca45f0051b5f431f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Books_08.prefab using Guid(ec8b339dbc2febd4ca45f0051b5f431f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba877a8d75a49374fdedb67eec113d5') in 0.030188 seconds
+  Import took 0.037136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/QA_Books/Prefabs/BookOpen_03.prefab
+  artifactKey: Guid(f3e273b40aec9094ba1905b2361ac36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/BookOpen_03.prefab using Guid(f3e273b40aec9094ba1905b2361ac36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b62c8dcb37ec23cbe7650e53322b1426') in 0.029567 seconds
+  Import took 0.037517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/QA_Books/Prefabs/BookS_04.prefab
+  artifactKey: Guid(8987f42b5e586b54dafc61270de5d973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/BookS_04.prefab using Guid(8987f42b5e586b54dafc61270de5d973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d905facb702454285d1b9776e553aeb') in 0.025472 seconds
+  Import took 0.032962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/QA_Books/Prefabs/Books_07.prefab
+  artifactKey: Guid(6aa1e5cf2e7a0bb479f8fb1d820b3cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Books_07.prefab using Guid(6aa1e5cf2e7a0bb479f8fb1d820b3cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2337e54336fb0172ce5efc488f6fc862') in 0.024752 seconds
+  Import took 0.032160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/QA_Books/Prefabs/BookOpen_01.prefab
+  artifactKey: Guid(8c327ec2627a0df46a0e82d80aaaef96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/BookOpen_01.prefab using Guid(8c327ec2627a0df46a0e82d80aaaef96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '935b350e7c6ea11aadc532c0f61c0b82') in 0.018854 seconds
+  Import took 0.025728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/QA_Books/Prefabs/BookOpen_02.prefab
+  artifactKey: Guid(8938ad57525142549a65f9a4b0768bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/BookOpen_02.prefab using Guid(8938ad57525142549a65f9a4b0768bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75071170b29285d938c03a6b6737ff73') in 0.028090 seconds
+  Import took 0.035791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.000236 seconds.
+  path: Assets/QA_Books/Prefabs/BookS_11.prefab
+  artifactKey: Guid(4c5237c927684e94a915dffb37834214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/BookS_11.prefab using Guid(4c5237c927684e94a915dffb37834214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd661a0c7d5ff9f12c34e7e3655e26a5c') in 0.019801 seconds
+  Import took 0.026869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/QA_Books/Prefabs/Books_12.prefab
+  artifactKey: Guid(0d7a21e247bd95b4bb0f03721763fab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Books_12.prefab using Guid(0d7a21e247bd95b4bb0f03721763fab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42748ee6041f71a1cf0fc7237b29c666') in 0.018518 seconds
+  Import took 0.025084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/QA_Books/Prefabs/Books_26.prefab
+  artifactKey: Guid(3ce8bec3c91d6a44381032dff91f9f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Books_26.prefab using Guid(3ce8bec3c91d6a44381032dff91f9f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d3bab73e718e28c627b528874f3210e') in 0.026137 seconds
+  Import took 0.033251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/QA_Books/Prefabs/Books_19.prefab
+  artifactKey: Guid(42336741f2631f04789ea7bc779e0d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Books_19.prefab using Guid(42336741f2631f04789ea7bc779e0d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d09b1df75293d94b5d86d678ec18cd2') in 0.018746 seconds
+  Import took 0.024903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/QA_Books/Prefabs/Books_21.prefab
+  artifactKey: Guid(6b3d603977aef2b4d9facc565bc15ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Books_21.prefab using Guid(6b3d603977aef2b4d9facc565bc15ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb8b3001a0c2173483ccec0c6054921f') in 0.028370 seconds
+  Import took 0.036294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/QA_Books/Prefabs/Books_24.prefab
+  artifactKey: Guid(0d27b0cb015a3264794d1df7b99e3411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Books_24.prefab using Guid(0d27b0cb015a3264794d1df7b99e3411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3130d5498f41cd425631b8bbe732da3a') in 0.020270 seconds
+  Import took 0.028854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/QA_Books/Prefabs/Books_17.prefab
+  artifactKey: Guid(a2939e3aa23efb045b648ac4409c7ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Books_17.prefab using Guid(a2939e3aa23efb045b648ac4409c7ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19fd3c9b7c40b7dca8569144a92bab94') in 0.020660 seconds
+  Import took 0.027453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/QA_Books/Prefabs/Books_22.prefab
+  artifactKey: Guid(ff68249fca5833f45a54d25567ceb8bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Books_22.prefab using Guid(ff68249fca5833f45a54d25567ceb8bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd842b0b195ea21cfd6eff5d3c80c15ee') in 0.021185 seconds
+  Import took 0.028646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/QA_Books/Prefabs/Books_14.prefab
+  artifactKey: Guid(838c42f39b984574db5f2800e6f0ac25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Books_14.prefab using Guid(838c42f39b984574db5f2800e6f0ac25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a204c3078a16f09c4fa57b3dd1a9e4ef') in 0.020060 seconds
+  Import took 0.026195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/QA_Books/Prefabs/Books_16.prefab
+  artifactKey: Guid(95872b709271974409a38fd9b35e6ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Books_16.prefab using Guid(95872b709271974409a38fd9b35e6ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14d84d94bf05e9f40c13d46bb8e415c7') in 0.019919 seconds
+  Import took 0.026229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/QA_Books/Prefabs/Books_25.prefab
+  artifactKey: Guid(703e5542e2b421e4aabebdfd3a0ce535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Books_25.prefab using Guid(703e5542e2b421e4aabebdfd3a0ce535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b013ba59b660078eeaa294217b890871') in 0.020159 seconds
+  Import took 0.026724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/QA_Books/Prefabs/Books_13.prefab
+  artifactKey: Guid(00e2fda8feb9b4349a0f704095edb0ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Books_13.prefab using Guid(00e2fda8feb9b4349a0f704095edb0ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c7975dc27a3a7eab328e09214b506c0') in 0.036082 seconds
+  Import took 0.042443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/QA_Books/Prefabs/Books_23.prefab
+  artifactKey: Guid(2e2f5c6350505b94d9c6ad6d76422a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Books_23.prefab using Guid(2e2f5c6350505b94d9c6ad6d76422a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b031813a6f4fc89082bd01e3dc6b11a1') in 0.019865 seconds
+  Import took 0.026639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/QA_Books/Prefabs/Books_18.prefab
+  artifactKey: Guid(b3531634795f41c4c91be035d7b15559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Books_18.prefab using Guid(b3531634795f41c4c91be035d7b15559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92d0ff933f993e99ef818bc234044e11') in 0.020454 seconds
+  Import took 0.027572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/QA_Books/Prefabs/Books_15.prefab
+  artifactKey: Guid(7171862ec87b07b47addc4d6c1e3686d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Books_15.prefab using Guid(7171862ec87b07b47addc4d6c1e3686d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6526e0458881dd176eeeb60c63d6bb8f') in 0.022648 seconds
+  Import took 0.029834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/QA_Books/Prefabs/Books_20.prefab
+  artifactKey: Guid(05e33778c495d8f4c85b9dd76d28aebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Books_20.prefab using Guid(05e33778c495d8f4c85b9dd76d28aebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d3a7ccca38cf70138fd1c64aa97e7ed') in 0.022645 seconds
+  Import took 0.029369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.707405 seconds.
+  path: Assets/QA_Books/Prefabs/Books_27.prefab
+  artifactKey: Guid(9ae4e56d111938948b75f4dd9802a5c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Books_27.prefab using Guid(9ae4e56d111938948b75f4dd9802a5c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c60a3c8896384d12c039d2d486c9f11') in 0.027105 seconds
+  Import took 0.035258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/QA_Books/Prefabs/Books_30.prefab
+  artifactKey: Guid(f19666d628662324191ece8d64784a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Books_30.prefab using Guid(f19666d628662324191ece8d64784a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67a59a1168ce56c86268e8b954a1f2fa') in 0.031683 seconds
+  Import took 0.040010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/QA_Books/Prefabs/Books_34.prefab
+  artifactKey: Guid(b45c49e8876b9fa438e5fc7173a07d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Books_34.prefab using Guid(b45c49e8876b9fa438e5fc7173a07d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a104476bfc37f23b21d4236cfe575c55') in 0.029198 seconds
+  Import took 0.036508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/QA_Books/Prefabs/Books_29.prefab
+  artifactKey: Guid(784cd8e77087af3488f478770e91b684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Books_29.prefab using Guid(784cd8e77087af3488f478770e91b684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12e3d6068fa82efee176576168165a94') in 0.027631 seconds
+  Import took 0.036315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/QA_Books/Prefabs/Books_32.prefab
+  artifactKey: Guid(e3dedf77e1e05f6419d2087dbdd51bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Books_32.prefab using Guid(e3dedf77e1e05f6419d2087dbdd51bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4502dc5f8b54616dffd8c7f96018bd0a') in 0.030360 seconds
+  Import took 0.037998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/QA_Books/Prefabs/Books_33.prefab
+  artifactKey: Guid(3d9fffef1180d41478a945cf0d8948e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Books_33.prefab using Guid(3d9fffef1180d41478a945cf0d8948e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c41ece1c86c4d5c53450c9a5cbf845d') in 0.029070 seconds
+  Import took 0.036258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/QA_Books/Prefabs/Books_31.prefab
+  artifactKey: Guid(cd9ee0d725941cb43924fc8ace46aff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Books_31.prefab using Guid(cd9ee0d725941cb43924fc8ace46aff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f06880bfe3d54c2c3efc009434511e7a') in 0.028572 seconds
+  Import took 0.035828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/QA_Books/Prefabs/Books_28.prefab
+  artifactKey: Guid(f792aff41dd4e894bbae030cb69a63b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Books_28.prefab using Guid(f792aff41dd4e894bbae030cb69a63b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed2761f658816af9fc2c2b4d3240a386') in 0.028744 seconds
+  Import took 0.036241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/QA_Books/Prefabs/Books_35.prefab
+  artifactKey: Guid(bae62b4c52157a5458cd20065bea1c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QA_Books/Prefabs/Books_35.prefab using Guid(bae62b4c52157a5458cd20065bea1c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adbebc7b74363b58bcbf0964fabd169f') in 0.028876 seconds
+  Import took 0.037192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 236.950326 seconds.
+  path: Assets/Props/Bookshelf.blend
+  artifactKey: Guid(44be58931c793354192ce7f6bb5a31bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Bookshelf.blend using Guid(44be58931c793354192ce7f6bb5a31bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '503c3fd5b786c7b03490a344f4a64a43') in 0.097951 seconds
+  Import took 0.104219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 346.406384 seconds.
+  path: Assets/Viverna_Assets
+  artifactKey: Guid(92db5c861ff867a45801f0e7ddaa0b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viverna_Assets using Guid(92db5c861ff867a45801f0e7ddaa0b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f283a2dd7c026261c27c08e072775deb') in 0.005696 seconds
+  Import took 0.012582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000747 seconds.
+  path: Assets/Viverna_Assets
+  artifactKey: Guid(92db5c861ff867a45801f0e7ddaa0b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viverna_Assets using Guid(92db5c861ff867a45801f0e7ddaa0b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f283a2dd7c026261c27c08e072775deb') in 0.002067 seconds
+  Import took 0.006805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.002406 seconds.
+  path: Assets/Viverna_Assets/Globe
+  artifactKey: Guid(52e5d2a276a369f498d7482b3275de55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viverna_Assets/Globe using Guid(52e5d2a276a369f498d7482b3275de55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c163486b079f4b6c6d3aab4a0cb6891') in 0.005626 seconds
+  Import took 0.012033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000751 seconds.
+  path: Assets/Viverna_Assets/Globe
+  artifactKey: Guid(52e5d2a276a369f498d7482b3275de55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Viverna_Assets/Globe using Guid(52e5d2a276a369f498d7482b3275de55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c163486b079f4b6c6d3aab4a0cb6891') in 0.002118 seconds
+  Import took 0.007313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.853325 seconds.
+  path: Assets/Globe/Prefabs
+  artifactKey: Guid(355442c4a736e4942b35559fc786a8b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Globe/Prefabs using Guid(355442c4a736e4942b35559fc786a8b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5468ded57bbf6a1756fd16834240fff') in 0.002439 seconds
+  Import took 0.008237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.066578 seconds.
+  path: Assets/Globe/Prefabs/Globe.prefab
+  artifactKey: Guid(59f9a93605a3eee4eb73efd2a0f43517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Globe/Prefabs/Globe.prefab using Guid(59f9a93605a3eee4eb73efd2a0f43517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '962a6f8ba3201f5fe00e010774234581') in 0.043501 seconds
+  Import took 0.049956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.236521 seconds.
+  path: Assets/Globe/Textures
+  artifactKey: Guid(272dde4fb53a8f94c84f86b7c11b9e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Globe/Textures using Guid(272dde4fb53a8f94c84f86b7c11b9e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26c5ead7ba53da688c7575c8aa917ac5') in 0.002729 seconds
+  Import took 0.008793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000877 seconds.
+  path: Assets/Globe/Textures
+  artifactKey: Guid(272dde4fb53a8f94c84f86b7c11b9e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Globe/Textures using Guid(272dde4fb53a8f94c84f86b7c11b9e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26c5ead7ba53da688c7575c8aa917ac5') in 0.001850 seconds
+  Import took 0.006487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.081330 seconds.
+  path: Assets/Globe/Textures/Globe_Albedo.png
+  artifactKey: Guid(945ac49b6c46da7478b2909f5a47d4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Globe/Textures/Globe_Albedo.png using Guid(945ac49b6c46da7478b2909f5a47d4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7f33167ff7cab1f88bb73d8786ffdca') in 0.013110 seconds
+  Import took 0.019508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Globe/Textures/Globe_Normals.png
+  artifactKey: Guid(5a448b723b97af744916b52a983e042e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Globe/Textures/Globe_Normals.png using Guid(5a448b723b97af744916b52a983e042e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61f11888d875e96a3da48445c883d5fa') in 0.011704 seconds
+  Import took 0.017678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Globe/Textures/Globe_AO.png
+  artifactKey: Guid(cd7e720e6c8e3df47b00cca74670bb0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Globe/Textures/Globe_AO.png using Guid(cd7e720e6c8e3df47b00cca74670bb0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf8e88f604234dc7758ae46f6d08b59') in 0.010585 seconds
+  Import took 0.015727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Globe/Textures/Globe_Secular.tga
+  artifactKey: Guid(c51a7855da2a5284b8be2e611908211d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Globe/Textures/Globe_Secular.tga using Guid(c51a7855da2a5284b8be2e611908211d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07a3cc3b0f25c4e0a4e394e0a58a3481') in 0.010126 seconds
+  Import took 0.015607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.624852 seconds.
+  path: Assets/Globe/Materials
+  artifactKey: Guid(a00c892862c09b64fba1f286eb1cfcb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Globe/Materials using Guid(a00c892862c09b64fba1f286eb1cfcb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba46d749856f6d1356c5873766a38ef') in 0.002434 seconds
+  Import took 0.008299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001287 seconds.
+  path: Assets/Globe/Materials
+  artifactKey: Guid(a00c892862c09b64fba1f286eb1cfcb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Globe/Materials using Guid(a00c892862c09b64fba1f286eb1cfcb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba46d749856f6d1356c5873766a38ef') in 0.002679 seconds
+  Import took 0.007979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.067035 seconds.
+  path: Assets/Globe/Materials/Globe.mat
+  artifactKey: Guid(7b737794ce9d4df4785350aec67b289e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Globe/Materials/Globe.mat using Guid(7b737794ce9d4df4785350aec67b289e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31963982692d0e62a874fbf5536d8fa2') in 0.012634 seconds
+  Import took 0.018775 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008948 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.54 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Users\nadig\OneDrive\Documentos\GitHub\VR_Environment_Avatar\VR Project\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Users\nadig\OneDrive\Documentos\GitHub\VR_Environment_Avatar\VR Project\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.430 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.44 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
+Unloading 3395 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.0 MB.
+System memory in use after: 203.9 MB.
+
+Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 4127.
+Total: 4.126300 ms (FindLiveObjects: 0.514400 ms CreateObjectMapping: 0.087000 ms MarkObjects: 2.627500 ms  DeleteObjects: 0.896200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011051 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.12 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.26 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Users\nadig\OneDrive\Documentos\GitHub\VR_Environment_Avatar\VR Project\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Users\nadig\OneDrive\Documentos\GitHub\VR_Environment_Avatar\VR Project\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.735 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.33 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
+Unloading 3395 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.1 MB.
+System memory in use after: 203.9 MB.
+
+Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 4130.
+Total: 4.014400 ms (FindLiveObjects: 0.426500 ms CreateObjectMapping: 0.095300 ms MarkObjects: 2.615500 ms  DeleteObjects: 0.875900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010357 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.32 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Users\nadig\OneDrive\Documentos\GitHub\VR_Environment_Avatar\VR Project\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Users\nadig\OneDrive\Documentos\GitHub\VR_Environment_Avatar\VR Project\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.363 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.41 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+Unloading 3395 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.1 MB.
+System memory in use after: 204.0 MB.
+
+Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 4133.
+Total: 3.845900 ms (FindLiveObjects: 0.461900 ms CreateObjectMapping: 0.084600 ms MarkObjects: 2.340600 ms  DeleteObjects: 0.956900 ms)
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 7.55 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Unloading 44 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.5 MB.
+System memory in use after: 116.4 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 4133.
+Total: 8.161500 ms (FindLiveObjects: 1.047800 ms CreateObjectMapping: 0.189000 ms MarkObjects: 5.402300 ms  DeleteObjects: 1.520600 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
