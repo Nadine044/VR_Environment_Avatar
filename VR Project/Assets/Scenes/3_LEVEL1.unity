@@ -3908,13 +3908,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 412368398}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0548, y: -0.0343, z: -0}
+  m_LocalRotation: {x: -0.000000115202326, y: -0.7071068, z: -0.7071068, w: 0.000000115202326}
+  m_LocalPosition: {x: -0.0548, y: -0.0343, z: -0.0505}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5803108443774260788}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &412494036
 GameObject:
   m_ObjectHideFlags: 0
@@ -6219,6 +6219,11 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0.73003554
       objectReference: {fileID: 0}
+    - target: {fileID: 6074074610480678380, guid: 4ac7df741a9c0a2418ec19477729ee3d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6130294578286966575, guid: 4ac7df741a9c0a2418ec19477729ee3d,
         type: 3}
       propertyPath: m_PresetInfoIsWorld
@@ -6626,6 +6631,36 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 750282684}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &755764717
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 755764718}
+  m_Layer: 10
+  m_Name: GrabPoint3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &755764718
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 755764717}
+  m_LocalRotation: {x: 0.00000011590386, y: -0.7071068, z: -0.7071068, w: 0.00000011590382}
+  m_LocalPosition: {x: -0.0004, y: 0.0097, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5803108443774260788}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: -180}
 --- !u!1 &757307132 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2516790190334752742, guid: dd802e54b44909e4ca8cd1fa8d7c1e90,
@@ -26943,13 +26978,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1616752559}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0596, y: -0.0343, z: 0}
+  m_LocalRotation: {x: -0.000000115202326, y: -0.7071068, z: -0.7071068, w: 0.000000115202326}
+  m_LocalPosition: {x: 0.0596, y: -0.0343, z: -0.0505}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5803108443774260788}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &1620252365 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5633570252903114779, guid: dd802e54b44909e4ca8cd1fa8d7c1e90,
@@ -36919,6 +36954,7 @@ GameObject:
   - component: {fileID: 2840296691853554494}
   - component: {fileID: 1996593372270150349}
   - component: {fileID: 1996593372270150348}
+  - component: {fileID: 1996593372270150350}
   m_Layer: 10
   m_Name: 3054_Bookshelf_Book.001
   m_TagString: Untagged
@@ -36943,24 +36979,24 @@ MonoBehaviour:
   Grabtype: 2
   GrabPhysics: 4
   GrabMechanic: 0
-  GrabSpeed: 20
+  GrabSpeed: 15
   RemoteGrabbable: 1
   RemoteGrabMechanic: 0
   RemoteGrabDistance: 2
   ThrowForceMultiplier: 2
   ThrowForceMultiplierAngular: 1.125
-  BreakDistance: 0.75
+  BreakDistance: 0
   HideHandGraphics: 0
-  ParentToHands: 1
-  ParentHandModel: 0
+  ParentToHands: 0
+  ParentHandModel: 1
   SnapHandModel: 1
   CanBeDropped: 1
   CanBeSnappedToSnapZone: 1
   ForceDisableKinematicOnDrop: 0
   InstantMovement: 0
-  MakeChildCollidersGrabbable: 0
+  MakeChildCollidersGrabbable: 1
   handPoseType: 1
-  SelectedHandPose: {fileID: 0}
+  SelectedHandPose: {fileID: 11400000, guid: bdfd0c22b697f3a4fb37009f2f0cbd5a, type: 2}
   CustomHandPose: 0
   SecondaryGrabBehavior: 0
   TwoHandedPosition: 0
@@ -36994,6 +37030,7 @@ MonoBehaviour:
   GrabPoints:
   - {fileID: 412368399}
   - {fileID: 1616752560}
+  - {fileID: 755764718}
   UseCustomInspector: 1
   lastFlickTime: 0
   FlickForce: 1
@@ -37013,6 +37050,25 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 3
+--- !u!114 &1996593372270150350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1996593372270150347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b90ed01ac5d94e9468b242b4c38496a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HapticsOnValidPickup: 1
+  HapticsOnValidRemotePickup: 1
+  HapticsOnCollision: 1
+  HapticsOnGrab: 1
+  VibrateFrequency: 0.3
+  VibrateAmplitude: 0.1
+  VibrateDuration: 0.1
 --- !u!1001 &2808055058618914273
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38268,6 +38324,7 @@ Transform:
   - {fileID: 1597562145}
   - {fileID: 412368399}
   - {fileID: 1616752560}
+  - {fileID: 755764718}
   m_Father: {fileID: 543450652007915835}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

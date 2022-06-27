@@ -4127,3 +4127,241 @@ System memory in use after: 203.9 MB.
 Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 4225.
 Total: 6.344300 ms (FindLiveObjects: 0.561400 ms CreateObjectMapping: 0.089500 ms MarkObjects: 4.314700 ms  DeleteObjects: 1.377100 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 17273.409917 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(6b669bc596766234e897bb3aad175396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(6b669bc596766234e897bb3aad175396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '873a1d5a8f3eadff6cfcca48f541d6c7') in 0.526938 seconds
+  Import took 0.543806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.305476 seconds.
+  path: Assets/BNG Framework/Textures/BNG_Atlas_A.png
+  artifactKey: Guid(0edc847d036304549826a8591306cad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Textures/BNG_Atlas_A.png using Guid(0edc847d036304549826a8591306cad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '890d385811759ab553f1298652b24193') in 0.028774 seconds
+  Import took 0.035427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/BNG Framework/Textures/v.png
+  artifactKey: Guid(e21b84bd9dbaf0d44b077d3e017e4d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Textures/v.png using Guid(e21b84bd9dbaf0d44b077d3e017e4d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb0c146c4e2cb0242bb2c7e0a154bb7') in 0.015438 seconds
+  Import took 0.021148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/BNG Framework/Textures/tex_tex_jihi_wire_166229229_BaseColor.png
+  artifactKey: Guid(b07f17b5d8d5e384da2d417a24381ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Textures/tex_tex_jihi_wire_166229229_BaseColor.png using Guid(b07f17b5d8d5e384da2d417a24381ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca9256432e1dd4d3cb284ccef0200160') in 0.017827 seconds
+  Import took 0.023910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/BNG Framework/Textures/BNG_Stick_normal.png
+  artifactKey: Guid(edc7c9ea552da5b448cfa7604c079179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Textures/BNG_Stick_normal.png using Guid(edc7c9ea552da5b448cfa7604c079179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c14eb36814e43d37bc1c9b5a13a40233') in 0.025466 seconds
+  Import took 0.031045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/BNG Framework/Textures/BNG_Stick_a.png.png
+  artifactKey: Guid(b729d7318ff923744818c4fe786eb90d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Textures/BNG_Stick_a.png.png using Guid(b729d7318ff923744818c4fe786eb90d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae46f8e982942e4d2dc836dcb041b02') in 0.058130 seconds
+  Import took 0.064856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/BNG Framework/Textures/BNG_Atlas_A.png
+  artifactKey: Guid(0edc847d036304549826a8591306cad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Textures/BNG_Atlas_A.png using Guid(0edc847d036304549826a8591306cad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '890d385811759ab553f1298652b24193') in 0.011171 seconds
+  Import took 0.016544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/BNG Framework/Textures/explosion.png
+  artifactKey: Guid(159310d44018d0f478395df68552f49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Textures/explosion.png using Guid(159310d44018d0f478395df68552f49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0489e3962dda11ec61f8f45cbbde2de') in 0.017326 seconds
+  Import took 0.023082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/BNG Framework/Textures/Flashlight.tif
+  artifactKey: Guid(fbbb0775cb202c0468917777194b20f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Textures/Flashlight.tif using Guid(fbbb0775cb202c0468917777194b20f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72ab1f6ce737f0cb4a3df8341c346857') in 0.022018 seconds
+  Import took 0.027925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/BNG Framework/Textures/meter_grid.psd
+  artifactKey: Guid(8e5a7d84f07680d4494818e3de59ef30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Textures/meter_grid.psd using Guid(8e5a7d84f07680d4494818e3de59ef30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab4b07cd5e1272f43b2b665c0f9fe097') in 0.019821 seconds
+  Import took 0.025344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/BNG Framework/Textures/BNG_Stick_ao.png
+  artifactKey: Guid(d4c81a68a37c9af4eb0a518ab5391316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Textures/BNG_Stick_ao.png using Guid(d4c81a68a37c9af4eb0a518ab5391316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6da9c3597e5acbbd88e5ab1c084eca2e') in 0.016829 seconds
+  Import took 0.022530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/BNG Framework/Textures/bow_smooth.png
+  artifactKey: Guid(9acec2fec2b034d4daf02618d5aae953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Textures/bow_smooth.png using Guid(9acec2fec2b034d4daf02618d5aae953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1052f8ad0a63d57da9c6cb0393527584') in 0.016836 seconds
+  Import took 0.023364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/BNG Framework/Textures/puff.png
+  artifactKey: Guid(ff285f333d4b75347ad5d21a9d699bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Textures/puff.png using Guid(ff285f333d4b75347ad5d21a9d699bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dda5f4c0270f4cfa79dc72dc3ce0511') in 0.014407 seconds
+  Import took 0.020856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/BNG Framework/Textures/tex_tex_jihi_wire_166229229_Normal.png
+  artifactKey: Guid(00c0fdeacb0cd1d4e858840c2c459fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Textures/tex_tex_jihi_wire_166229229_Normal.png using Guid(00c0fdeacb0cd1d4e858840c2c459fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '201910c582e85afad4aec1491ebf7f26') in 0.020757 seconds
+  Import took 0.026292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/BNG Framework/Textures/circle.png
+  artifactKey: Guid(e68e8991e6b97bc44b09d32aa2b1f358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Textures/circle.png using Guid(e68e8991e6b97bc44b09d32aa2b1f358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10d41b858464967b00e957f2379da1f9') in 0.032090 seconds
+  Import took 0.037433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/BNG Framework/Textures/BNG_Stick_s.png
+  artifactKey: Guid(ecd31b057865d574eaca40ffda83d8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Textures/BNG_Stick_s.png using Guid(ecd31b057865d574eaca40ffda83d8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '633b97a4213871aa07a0ff53c768ef45') in 0.023154 seconds
+  Import took 0.028724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/BNG Framework/Textures/circle-dashed.png
+  artifactKey: Guid(263be9c9a034fc647a523b48ca833efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Textures/circle-dashed.png using Guid(263be9c9a034fc647a523b48ca833efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d9b86bc1a8adda5a0a27d5fd9324158') in 0.016508 seconds
+  Import took 0.022773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003569 seconds.
+  path: Assets/BNG Framework/Textures/circle-dashed.png
+  artifactKey: Guid(263be9c9a034fc647a523b48ca833efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Textures/circle-dashed.png using Guid(263be9c9a034fc647a523b48ca833efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d9b86bc1a8adda5a0a27d5fd9324158') in 0.008026 seconds
+  Import took 0.013629 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010074 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.46 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.20 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Users\nadig\OneDrive\Documentos\GitHub\VR_Environment_Avatar\VR Project\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Users\nadig\OneDrive\Documentos\GitHub\VR_Environment_Avatar\VR Project\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.505 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.41 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.17 ms.
+Unloading 3400 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 206.3 MB.
+System memory in use after: 205.4 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 4241.
+Total: 4.483500 ms (FindLiveObjects: 0.474400 ms CreateObjectMapping: 0.088400 ms MarkObjects: 3.150800 ms  DeleteObjects: 0.768300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008960 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.44 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.19 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Users\nadig\OneDrive\Documentos\GitHub\VR_Environment_Avatar\VR Project\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Users\nadig\OneDrive\Documentos\GitHub\VR_Environment_Avatar\VR Project\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.518 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
+Unloading 3392 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.8 MB.
+System memory in use after: 204.9 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 4244.
+Total: 4.799200 ms (FindLiveObjects: 0.586700 ms CreateObjectMapping: 0.094700 ms MarkObjects: 3.258900 ms  DeleteObjects: 0.857800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008769 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.46 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.18 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Users\nadig\OneDrive\Documentos\GitHub\VR_Environment_Avatar\VR Project\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Users\nadig\OneDrive\Documentos\GitHub\VR_Environment_Avatar\VR Project\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.510 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+Unloading 3392 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.8 MB.
+System memory in use after: 204.9 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 4247.
+Total: 5.010700 ms (FindLiveObjects: 0.684100 ms CreateObjectMapping: 0.306400 ms MarkObjects: 3.148100 ms  DeleteObjects: 0.870700 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
