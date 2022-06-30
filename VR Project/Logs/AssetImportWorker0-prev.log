@@ -15,12 +15,12 @@ C:/Users/nadig/OneDrive/Documentos/GitHub/VR_Environment_Avatar/VR Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49594
+60600
 Successfully changed project path to: C:/Users/nadig/OneDrive/Documentos/GitHub/VR_Environment_Avatar/VR Project
 C:/Users/nadig/OneDrive/Documentos/GitHub/VR_Environment_Avatar/VR Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 102.01 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 1.76 ms.
+Refreshing native plugins compatible for Editor in 105.22 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 1.85 ms.
 Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/nadig/OneDrive/Documentos/GitHub/VR_Environment_Avatar/VR Project/Assets
@@ -35,26 +35,26 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56816
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56704
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001688 seconds.
+Registered in 0.001951 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 90.12 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.15 ms.
+Refreshing native plugins compatible for Editor in 92.06 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.936 seconds
+- Completed reload, in  2.708 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009269 seconds.
+Registered in 0.008938 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 80.71 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
+Refreshing native plugins compatible for Editor in 94.92 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.16 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
@@ -65,53 +65,201 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.568 seconds
+- Completed reload, in  1.689 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 1.33 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.14 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.40 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.21 ms.
 Unloading 3570 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 268.4 MB.
-System memory in use after: 267.1 MB.
+System memory in use before: 268.8 MB.
+System memory in use after: 267.4 MB.
 
 Unloading 64 unused Assets to reduce memory usage. Loaded Objects now: 4043.
-Total: 3.801500 ms (FindLiveObjects: 0.446600 ms CreateObjectMapping: 0.100500 ms MarkObjects: 2.389600 ms  DeleteObjects: 0.863000 ms)
-
-========================================================================
-Received Prepare
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 7.65 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
-Unloading 44 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 192.6 MB.
-System memory in use after: 191.4 MB.
-
-Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 4043.
-Total: 4.158600 ms (FindLiveObjects: 0.649700 ms CreateObjectMapping: 0.122500 ms MarkObjects: 2.401500 ms  DeleteObjects: 0.983700 ms)
+Total: 6.011900 ms (FindLiveObjects: 0.939100 ms CreateObjectMapping: 0.099800 ms MarkObjects: 3.816200 ms  DeleteObjects: 1.155300 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Props/SoulTree.blend
-  artifactKey: Guid(ef220102303cf4047b9f1bec77c62552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/SoulTree.blend using Guid(ef220102303cf4047b9f1bec77c62552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b95f1faa77be32215d1304ce3ebda80c') in 0.575944 seconds
-  Import took 0.583043 seconds .
+  path: Assets/ColorSkies/Skies/Sky_3.mat
+  artifactKey: Guid(a93d27d74f0fb574f9bbb6a2dbc86e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ColorSkies/Skies/Sky_3.mat using Guid(a93d27d74f0fb574f9bbb6a2dbc86e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28a6cda5b72254359c87765e0f370330') in 0.298907 seconds
+  Import took 0.308192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/ColorSkies/Skies/Sky_4.mat
+  artifactKey: Guid(21ae2c17e7f4a4447aea76bbeded97b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ColorSkies/Skies/Sky_4.mat using Guid(21ae2c17e7f4a4447aea76bbeded97b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5469cdb4d5db40ee6985e59b40e3bbb') in 0.034802 seconds
+  Import took 0.043296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/ColorSkies/Skies/Sky_8.mat
+  artifactKey: Guid(4323fde32dbcebf4195ad58c05f28e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ColorSkies/Skies/Sky_8.mat using Guid(4323fde32dbcebf4195ad58c05f28e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46f8c96a3542ae5fe67dad68d12878ee') in 0.024886 seconds
+  Import took 0.032757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/ColorSkies/Skies/Sky_7.mat
+  artifactKey: Guid(1d3f5254e25764546b2211aa1dd32efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ColorSkies/Skies/Sky_7.mat using Guid(1d3f5254e25764546b2211aa1dd32efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01bd8882ec78c89a22abdca8f4e03d88') in 0.025232 seconds
+  Import took 0.032276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/ColorSkies/Skies/Sky_1.mat
+  artifactKey: Guid(3bbeb79adedffcb4a94850fbf4b6cce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ColorSkies/Skies/Sky_1.mat using Guid(3bbeb79adedffcb4a94850fbf4b6cce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e983eef1bfefeba3548e86c8ddfc541') in 0.024651 seconds
+  Import took 0.032192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/ColorSkies
+  artifactKey: Guid(8cc4f2f7d8d1b1a46ab0269dbc637924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ColorSkies using Guid(8cc4f2f7d8d1b1a46ab0269dbc637924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2efe0cc2490da5ced4dd322ebdd33fcf') in 0.006308 seconds
+  Import took 0.012748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/ColorSkies/Skies/Sky_6.mat
+  artifactKey: Guid(59998d46d34ccf340be71d5a79eec445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ColorSkies/Skies/Sky_6.mat using Guid(59998d46d34ccf340be71d5a79eec445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9d1764f65a1603138187d24889cc3a8') in 0.023984 seconds
+  Import took 0.031371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/ColorSkies/Skies
+  artifactKey: Guid(b6cd835985ecf3448a9711bc603dbe6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ColorSkies/Skies using Guid(b6cd835985ecf3448a9711bc603dbe6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b1e64e56d31c8f50badf5e4697560ba') in 0.007378 seconds
+  Import took 0.013690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/ColorSkies/Skies/Sky_2.mat
+  artifactKey: Guid(3a8c5fa081c5a974b9fffa93e4230ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ColorSkies/Skies/Sky_2.mat using Guid(3a8c5fa081c5a974b9fffa93e4230ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '424ade2849adc0bd621862702af854a5') in 0.023015 seconds
+  Import took 0.030695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/ColorSkies/Skies/Sky_5.mat
+  artifactKey: Guid(d9a12ffaaa5dd67418211def4dfaee9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ColorSkies/Skies/Sky_5.mat using Guid(d9a12ffaaa5dd67418211def4dfaee9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6889f828231df8024d60060edb6b182') in 0.021519 seconds
+  Import took 0.027918 seconds .
 
 ========================================================================
 Received Prepare
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 7.26 ms, found 14 plugins.
+Registering precompiled user dll's ...
+Registered in 0.008436 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.36 ms, found 14 plugins.
 Preloading 2 native plugins for Editor in 0.14 ms.
-Unloading 44 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 195.1 MB.
-System memory in use after: 193.9 MB.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Users\nadig\OneDrive\Documentos\GitHub\VR_Environment_Avatar\VR Project\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Users\nadig\OneDrive\Documentos\GitHub\VR_Environment_Avatar\VR Project\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
 
-Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 4150.
-Total: 4.554400 ms (FindLiveObjects: 0.558100 ms CreateObjectMapping: 0.097100 ms MarkObjects: 2.887300 ms  DeleteObjects: 1.010900 ms)
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.407 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.34 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+Unloading 3396 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 283.5 MB.
+System memory in use after: 282.4 MB.
+
+Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 4124.
+Total: 3.786500 ms (FindLiveObjects: 0.509400 ms CreateObjectMapping: 0.095600 ms MarkObjects: 2.206400 ms  DeleteObjects: 0.974000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010406 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.89 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.19 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Users\nadig\OneDrive\Documentos\GitHub\VR_Environment_Avatar\VR Project\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:242 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Users\nadig\OneDrive\Documentos\GitHub\VR_Environment_Avatar\VR Project\Library\PackageCache\com.unity.xr.oculus@1.6.1\Runtime\OculusLoader.cs:227 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.6.1/Runtime/OculusLoader.cs Line: 242)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.469 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.36 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+Unloading 3396 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 283.6 MB.
+System memory in use after: 282.4 MB.
+
+Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 4127.
+Total: 4.279500 ms (FindLiveObjects: 0.554600 ms CreateObjectMapping: 0.089400 ms MarkObjects: 2.615600 ms  DeleteObjects: 1.018600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1607.393086 seconds.
+  path: Assets/Scenes/3_LEVEL1/PostProcessing Profile.asset
+  artifactKey: Guid(90b0db0fe77993e4ab1e61ce2a519ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/3_LEVEL1/PostProcessing Profile.asset using Guid(90b0db0fe77993e4ab1e61ce2a519ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '040281ba2b7684a04eb2346a39b08bcb') in 0.023079 seconds
+  Import took 0.031584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010594 seconds.
+  path: Assets/Scenes/3_LEVEL1/PostProcessing Profile.asset
+  artifactKey: Guid(90b0db0fe77993e4ab1e61ce2a519ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/3_LEVEL1/PostProcessing Profile.asset using Guid(90b0db0fe77993e4ab1e61ce2a519ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '040281ba2b7684a04eb2346a39b08bcb') in 0.002909 seconds
+  Import took 0.008015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 377.432206 seconds.
+  path: Assets/Shaders/water textures/water_texture_Nadine.png
+  artifactKey: Guid(761f109137fe10645916c90593aecc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/water textures/water_texture_Nadine.png using Guid(761f109137fe10645916c90593aecc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68f9226a544a698e417ee9fb07c36499') in 0.038134 seconds
+  Import took 0.045222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004566 seconds.
+  path: Assets/Shaders/water textures/water_texture_Nadine.png
+  artifactKey: Guid(761f109137fe10645916c90593aecc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/water textures/water_texture_Nadine.png using Guid(761f109137fe10645916c90593aecc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68f9226a544a698e417ee9fb07c36499') in 0.006887 seconds
+  Import took 0.012804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.354873 seconds.
+  path: Assets/BNG Framework/Models/BNG_E_Orange.fbx
+  artifactKey: Guid(017351951c7b94c42a992ae625ec6a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Models/BNG_E_Orange.fbx using Guid(017351951c7b94c42a992ae625ec6a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4254ca69f89656155dba11aaa0b26e4c') in 0.291506 seconds
+  Import took 0.297952 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
