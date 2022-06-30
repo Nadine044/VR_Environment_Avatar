@@ -13,6 +13,7 @@ TagManager:
   - ORANGE_1
   - PURPLE_1
   - Tree
+  - Arrow
   layers:
   - Default
   - TransparentFX
